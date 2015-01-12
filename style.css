@@ -126,7 +126,12 @@ header {
   background-position: center top, center bottom; }
   .productos-destacados h1 {
     font-size: 5.4em;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    letter-spacing: .11em; }
   .productos-destacados h1 span {
     font-weight: 700;
-    font-size: 1em !important; }
+    letter-spacing: .001em; }
+
+/*Producto destacado*/
+.prod-dest-1-home .ico img {
+  background: #5b5c5c; }

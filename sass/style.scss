@@ -102,9 +102,19 @@ header {
 	h1{
 		font-size:$em-3 * 1.8;
 		text-transform:uppercase;
+		letter-spacing:.11em;
+		
 	}
 	h1 span {
 		font-weight:700;
-		font-size:$em-1!important;
+		letter-spacing:.001em;
 	}
 }
+
+/*Producto destacado*/
+.prod-dest-1-home {
+	.ico img {
+		background:$gris-oscuro;
+	}
+}
+

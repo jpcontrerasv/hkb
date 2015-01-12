@@ -123,10 +123,32 @@
         
         <div class="clearfix"></div>
         <div class="productos-destacados" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-column text-center">
-        	<h1>Productos <br><span>Destacados</span></h1>
+        	<h1 id="productos-destacados-home">Productos <br><span>Destacados</span></h1>
         </div>
         <!--bajada slider-->
         <div class="clearfix"></div>
+        
+        <div class="prod-dest-1-home container no-column">
+        	<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 no-column ico text-right">
+                
+                <div class="container-fluid no-column">
+                	<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 no-column">
+		            	<img src="img/ico-cocina-2.svg" alt="">
+                    </div>
+                	<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 no-column">
+                    	<h2>Slotted<br>Turner</h2>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 no-column">
+            	<img src="img/img-dest-1.jpg" alt="">
+            </div>
+        	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 no-column">
+            </div>
+            
+        </div>
         
         
       </section>
@@ -144,6 +166,7 @@
     <script type="text/javascript" src="js/jetmenu.js"></script>  
     <script type="text/javascript" src="js/jquery.flexslider.js"></script>  
 	<script src="js/jquery.easing.js"></script>
+    <script src="js/jquery.fittext.js"></script>
     
   </body>
 </html>
