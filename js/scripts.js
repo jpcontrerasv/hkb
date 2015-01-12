@@ -6,7 +6,8 @@ $(window).load(function(){
 	});
 	
 	//flexslider
-	$('#slide-home').flexslider({
+	$('.flexslider').flexslider({
 		animation: "slide",
+		directionNav: true,
 	});
 });

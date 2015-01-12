@@ -96,6 +96,10 @@ a {
   padding-left: 0;
   padding-right: 0; }
 
+/*Fuentes*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: "ff-basic-gothic-sc-web-pro"; }
+
 /*Paleta*/
 header {
   padding: 36px;
@@ -103,15 +107,26 @@ header {
   text-align: center; }
   header .logo img {
     max-width: 100%;
-    min-width: 100%; }
+    min-width: 100%;
+    transition: all .5s ease; }
 
-/* para browser */
 @media (max-width: 991px) {
   header .logo img {
     max-width: 70%;
     min-width: 70%; } }
-/* para dispositivo */
 @media only screen and (max-device-width: 991px) {
   header .logo img {
     max-width: 70%;
     min-width: 70%; } }
+.productos-destacados {
+  text-align: center;
+  margin: 50px 0;
+  padding: 25px 0;
+  background: url(../img/bg-prod-dest-home.gif) no-repeat, url(../img/bg-prod-dest-home-2.gif) no-repeat;
+  background-position: center top, center bottom; }
+  .productos-destacados h1 {
+    font-size: 5.4em;
+    text-transform: uppercase; }
+  .productos-destacados h1 span {
+    font-weight: 700;
+    font-size: 1em !important; }

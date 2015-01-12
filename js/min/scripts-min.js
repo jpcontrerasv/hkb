@@ -1,1 +1,1 @@
-$(window).load(function(){$().jetmenu({submenuTrigger:"click"}),$("#slide-home").flexslider({animation:"slide"})});
+$(window).load(function(){$().jetmenu({submenuTrigger:"click"}),$(".flexslider").flexslider({animation:"slide",directionNav:!0})});

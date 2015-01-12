@@ -8,10 +8,10 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link href="css/jetmenu.css" rel="stylesheet">
       <link href="css/font-awesome.css" rel="stylesheet">
-      <link href="css/flexslider.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,6 +19,8 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+	<script src="//use.typekit.net/vuo8jjd.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
   </head>
   <body>
       
@@ -100,8 +102,8 @@
           </div>
       </header>
       
-      <section id="main" class="container-fluid">
-        <div id="slide-home">
+      <section id="main" class="container-fluid no-column">
+        <div id="slide-home" class="flexslider">
           <ul class="slides">
             <li>
   	    	    <img src="img/img-slide-1.jpg" />
@@ -117,7 +119,18 @@
   	    		</li>
           </ul>
         </div>
+        <!--slider-->
+        
+        <div class="clearfix"></div>
+        <div class="productos-destacados" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-column text-center">
+        	<h1>Productos <br><span>Destacados</span></h1>
+        </div>
+        <!--bajada slider-->
+        <div class="clearfix"></div>
+        
+        
       </section>
+      <!--/main-->
       
       
       
