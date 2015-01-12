@@ -4,5 +4,84 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
-body {
+
+
+/*Reset JP*/
+.box {
+	display:block;
+	height:auto;
+	overflow:hidden;
+}
+.fleft {
+	float:left;
+}
+.fright {
+	float:right;
+}
+.fcenter {
+	margin:0 auto;
+}
+.fwidth {
+	width:100%;
+}
+*, p, a {
+	margin:0;
+	padding:0;
+}
+.text-center {
+  text-align:center;
+}
+.text-left {
+  text-align:left;
+}
+.text-right {
+  text-align:right;
+}
+a {
+	text-decoration:none;
+	outline:none;
+}
+.ocultar {
+	display:none;
+	visibility:hidden;
+}
+.mostrar {
+	display:block;
+	visibility:visible;
+}
+.no-column {
+	padding-left:0;
+	padding-right:0;
+}
+
+/*Paleta*/
+$amarillo: #f6fea5;
+$gris-claro: #727272;
+$gris-oscuro: #5b5c5c;
+
+header {
+    padding: 36px;
+    background: $gris-oscuro;
+	text-align:center;
+
+	.logo img{
+		max-width:100%;
+		min-width:100%;
+	}
+}
+
+
+/* para browser */
+@media (max-width: 991px) {
+	header .logo img {
+		max-width:70%;
+		min-width:70%;
+	}
+}
+/* para dispositivo */
+@media only screen and (max-device-width: 991px) {
+	header .logo img {
+		max-width:70%;
+		min-width:70%;
+	}
 }

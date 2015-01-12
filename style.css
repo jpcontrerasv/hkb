@@ -48,3 +48,70 @@ a img {
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
+
+/*Reset JP*/
+.box {
+  display: block;
+  height: auto;
+  overflow: hidden; }
+
+.fleft {
+  float: left; }
+
+.fright {
+  float: right; }
+
+.fcenter {
+  margin: 0 auto; }
+
+.fwidth {
+  width: 100%; }
+
+*, p, a {
+  margin: 0;
+  padding: 0; }
+
+.text-center {
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
+a {
+  text-decoration: none;
+  outline: none; }
+
+.ocultar {
+  display: none;
+  visibility: hidden; }
+
+.mostrar {
+  display: block;
+  visibility: visible; }
+
+.no-column {
+  padding-left: 0;
+  padding-right: 0; }
+
+/*Paleta*/
+header {
+  padding: 36px;
+  background: #5b5c5c;
+  text-align: center; }
+  header .logo img {
+    max-width: 100%;
+    min-width: 100%; }
+
+/* para browser */
+@media (max-width: 991px) {
+  header .logo img {
+    max-width: 70%;
+    min-width: 70%; } }
+/* para dispositivo */
+@media only screen and (max-device-width: 991px) {
+  header .logo img {
+    max-width: 70%;
+    min-width: 70%; } }

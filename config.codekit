@@ -47,6 +47,449 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/font-awesome.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/font-awesome.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/jetmenu.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/jetmenu.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/img\/1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60559,
+		"inputAbbreviatedPath": "\/img\/1.jpg",
+		"outputAbbreviatedPath": "\/img\/1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49813,
+		"inputAbbreviatedPath": "\/img\/2.jpg",
+		"outputAbbreviatedPath": "\/img\/2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59141,
+		"inputAbbreviatedPath": "\/img\/3.jpg",
+		"outputAbbreviatedPath": "\/img\/3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 143405,
+		"inputAbbreviatedPath": "\/img\/4.jpg",
+		"outputAbbreviatedPath": "\/img\/4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 330113,
+		"inputAbbreviatedPath": "\/img\/5.jpg",
+		"outputAbbreviatedPath": "\/img\/5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69526,
+		"inputAbbreviatedPath": "\/img\/6.jpg",
+		"outputAbbreviatedPath": "\/img\/6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-head.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4205,
+		"inputAbbreviatedPath": "\/img\/logo-head.png",
+		"outputAbbreviatedPath": "\/img\/logo-head.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/css\/font-awesome.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/css\/font-awesome.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/css\/jetmenu.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/css\/jetmenu.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/documentation.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/documentation.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/img\/1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60559,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/img\/1.jpg",
+		"outputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/img\/1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/img\/2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49813,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/img\/2.jpg",
+		"outputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/img\/2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/img\/3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59141,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/img\/3.jpg",
+		"outputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/img\/3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/img\/4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 143405,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/img\/4.jpg",
+		"outputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/img\/4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/img\/5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 330113,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/img\/5.jpg",
+		"outputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/img\/5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/img\/6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69526,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/img\/6.jpg",
+		"outputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/img\/6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/js\/jetmenu.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/js\/jetmenu.js",
+		"outputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/js\/min\/jetmenu-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/js\/jquery-1.10.1.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/js\/jquery-1.10.1.min.js",
+		"outputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/documentation\/js\/min\/jquery-1.10.1.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Jet - Responsive Megamenu\/Non-Responsive version\/files\/css\/font-awesome.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/files\/css\/font-awesome.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Jet - Responsive Megamenu\/Non-Responsive version\/files\/css\/jetmenu.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/files\/css\/jetmenu.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Jet - Responsive Megamenu\/Non-Responsive version\/files\/js\/jetmenu.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/files\/js\/jetmenu.js",
+		"outputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/files\/js\/min\/jetmenu-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Jet - Responsive Megamenu\/Non-Responsive version\/files\/js\/jquery-1.10.1.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/files\/js\/jquery-1.10.1.min.js",
+		"outputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Non-Responsive version\/files\/js\/min\/jquery-1.10.1.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Jet - Responsive Megamenu\/Responsive version\/documentation\/css\/font-awesome.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/documentation\/css\/font-awesome.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Jet - Responsive Megamenu\/Responsive version\/documentation\/css\/jetmenu.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/documentation\/css\/jetmenu.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Jet - Responsive Megamenu\/Responsive version\/documentation\/demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/documentation\/demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Jet - Responsive Megamenu\/Responsive version\/documentation\/documentation.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/documentation\/documentation.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Jet - Responsive Megamenu\/Responsive version\/documentation\/img\/1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60559,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/documentation\/img\/1.jpg",
+		"outputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/documentation\/img\/1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Jet - Responsive Megamenu\/Responsive version\/documentation\/img\/2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49813,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/documentation\/img\/2.jpg",
+		"outputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/documentation\/img\/2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Jet - Responsive Megamenu\/Responsive version\/documentation\/img\/3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59141,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/documentation\/img\/3.jpg",
+		"outputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/documentation\/img\/3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Jet - Responsive Megamenu\/Responsive version\/documentation\/img\/4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 143405,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/documentation\/img\/4.jpg",
+		"outputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/documentation\/img\/4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Jet - Responsive Megamenu\/Responsive version\/documentation\/img\/5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 330113,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/documentation\/img\/5.jpg",
+		"outputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/documentation\/img\/5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Jet - Responsive Megamenu\/Responsive version\/documentation\/img\/6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69526,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/documentation\/img\/6.jpg",
+		"outputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/documentation\/img\/6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Jet - Responsive Megamenu\/Responsive version\/documentation\/js\/jetmenu 2.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/documentation\/js\/jetmenu 2.js",
+		"outputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/documentation\/js\/min\/jetmenu 2-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Jet - Responsive Megamenu\/Responsive version\/documentation\/js\/jetmenu.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/documentation\/js\/jetmenu.js",
+		"outputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/documentation\/js\/min\/jetmenu-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Jet - Responsive Megamenu\/Responsive version\/documentation\/js\/jquery-1.10.1.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/documentation\/js\/jquery-1.10.1.min.js",
+		"outputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/documentation\/js\/min\/jquery-1.10.1.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Jet - Responsive Megamenu\/Responsive version\/files\/css\/font-awesome.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/files\/css\/font-awesome.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Jet - Responsive Megamenu\/Responsive version\/files\/css\/jetmenu.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/files\/css\/jetmenu.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Jet - Responsive Megamenu\/Responsive version\/files\/js\/jetmenu.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/files\/js\/jetmenu.js",
+		"outputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/files\/js\/min\/jetmenu-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Jet - Responsive Megamenu\/Responsive version\/files\/js\/jquery-1.10.1.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/files\/js\/jquery-1.10.1.min.js",
+		"outputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/files\/js\/min\/jquery-1.10.1.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/bootstrap.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -69,12 +512,45 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/jetmenu.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jetmenu.js",
+		"outputAbbreviatedPath": "\/js\/min\/jetmenu-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/scripts-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/scripts-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/scripts-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/npm.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/npm.js",
 		"outputAbbreviatedPath": "\/js\/min\/npm-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/scripts.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/scripts.js",
+		"outputAbbreviatedPath": "\/js\/min\/scripts-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -128,6 +604,31 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/sass\/style.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/style.scss",
+		"outputAbbreviatedPath": "\/style.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/style.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/stylesheets\/ie.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -165,7 +666,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "hkb",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "compass_blue"
+	"iconImageName": "meme-fry"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 1,
