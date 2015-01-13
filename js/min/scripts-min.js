@@ -1,1 +1,1 @@
-$(window).load(function(){$().jetmenu({submenuTrigger:"click"}),$("#productos-destacados-home").fitText(1.1,{minFontSize:"50px",maxFontSize:"65px"}),$(".flexslider").flexslider({animation:"slide",directionNav:!0})});
+$(window).load(function(){$().jetmenu({submenuTrigger:"click"}),$("#productos-destacados-home").fitText(1.1,{minFontSize:"50px",maxFontSize:"65px"}),$("#tit-dest-1").fitText(1.1,{minFontSize:"50px",maxFontSize:"65px"}),$(".flexslider").flexslider({animation:"slide",directionNav:!0})});

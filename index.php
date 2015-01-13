@@ -130,7 +130,7 @@
         <!--bajada slider-->
         <div class="clearfix"></div>
         
-        <div id="prod-dest-1-home" class="container-fluid no-column">
+        <?php /*?><div id="prod-dest-1-home" class="container-fluid no-column">
         	<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 no-column">
                 
                 <div class="container-fluid no-column">
@@ -138,7 +138,7 @@
 		            	<img src="img/ico-cocina-2.svg" alt="">
                     </div>
                 	<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-center nombre-prod">
-                    	<h1 id="tit-dest-1">Slotted Turner</h1>
+                    	<h1>Slotted Turner</h1>
                     </div>
                 </div>
                 
@@ -153,7 +153,7 @@
                     </div>
                     <div class="clearfix"></div>
                 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-column text-center precio">
-                    	<h1>$18.990</h1>
+                    	<h1 id="tit-dest-1">$18.990</h1>
                     </div>
                     <div class="clearfix"></div>
                 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-column text-center">
@@ -163,13 +163,40 @@
                 </div>
             </div>
             
-        </div>
+        </div><?php */?>
         <!--producto destacado-->
         
         
-        <div class="container">
+        <div id="dest-2-3" class="container-fluid no-column">
         	
+            <div class="col-lg-offset-1 col-md-offset-1 col-lg-10 col-md-10 col-sm-12 col-xs-12 no-column">
+            	<div class="container-fluid no-column" style="border:1px solid #F00;">
+                	
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-column dest-izq">
+                    	<div class="container-fluid no-column">
+                        	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 no-column ico">
+                            	<img src="img/ico-cocina-2.svg" alt="">
+                                <span class="punta"></span>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 no-column img">
+                            	<img src="img/dest-2.png" alt="">
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    <!--destacado izquierda-->
+                    
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-column dest-der">
+                    </div>
+                    <!--destacado derecha-->
+                    
+                </div>
+            </div>
+            
+            
         </div>
+        <!--/produtos destacados 2-->
         
       </section>
       <!--/main-->

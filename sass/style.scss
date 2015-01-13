@@ -68,7 +68,7 @@ $amarillo: #f6fea5;
 $gris-claro: #727272;
 $gris-oscuro: #5b5c5c;
 //radio 
-$radio: 12px;
+$radio: 18px;
 
 header {
     padding: 36px;
@@ -133,8 +133,8 @@ header {
 /*Producto destacado*/
 #prod-dest-1-home {
 	background:url(../img/bg-prod-dest-home.gif) no-repeat center bottom;
-	padding-bottom:50px;
-	margin-bottom:40px;
+	padding-bottom:33px;
+	margin-bottom:10px;
 	
 	.ico-dest-1 {
 		background:$gris-oscuro;
@@ -182,5 +182,41 @@ header {
 		font-weight:600;
 	}
 	
-}
+} //#prod-dest-1-home
+
+#dest-2-3 {
+	
+	.dest-izq {
+		.ico {
+			background:$gris-claro;
+			height:258px;
+			position:relative;
+			overflow:visible;
+			
+			img {
+				display:block;
+				margin:0 auto;
+				min-width:100%;
+				max-width:100%;
+			}
+			.punta {
+				display:block;
+				width:28px;
+				height:58px;
+				background:url(../img/punta.png) center center no-repeat;
+				position:absolute;
+				top:40%;
+				right:-28px;
+			}
+		}//ico
+		
+		.img {
+		}//img
+		
+		
+	} //.dest-izq
+	
+} //#dest-2-3
+
+
 
