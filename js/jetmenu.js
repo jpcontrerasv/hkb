@@ -25,7 +25,7 @@ jQuery.fn.jetmenu = function(options){
 	if(settings.indicator == true){
 		$(menu).find("a").each(function(){
 			if($(this).siblings(".dropdown, .megamenu").length > 0){
-				$(this).append("<span class='indicator'>+</span>");
+				$(this).append("<span class='indicator'><i class='fa fa-caret-down'></i></span>");
 			}
 		});
 	}

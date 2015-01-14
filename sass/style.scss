@@ -67,13 +67,14 @@ h1, h2, h3, h4, h5, h6, p, button {
 //Paleta
 $amarillo: #f6fea5;
 $gris-claro: #727272;
+$gris-claro-b: #adadad;
 $gris-oscuro: #5b5c5c;
 //radio 
 $radio: 18px;
 
 header {
     padding: 36px;
-    background: $gris-oscuro;
+    background: $gris-claro;
 	text-align:center;
 
 	.logo img{
@@ -89,6 +90,30 @@ header {
 			max-width:70%;
 			min-width:70%;
 		}
+	}
+}
+
+/*menu*/
+#home-menu {
+	h4 {
+		font-weight:200;
+		text-transform:uppercase;
+	}
+	.productos-menu {
+		.col-lg-6:first-child {
+			background:url(../img/separador-vertical.gif) right center no-repeat;
+			
+			@media (max-width: 768px) {
+				background:none;
+			}
+			@media only screen and (max-device-width: 768px) {
+				background:none;
+			}
+		}
+		img {
+			max-width:70%;
+		}
+		
 	}
 }
 
@@ -305,7 +330,25 @@ header {
 
 footer {
 	padding:45px 0 119px 0;
-	background:$gris-claro;
+	background:$gris-claro-b;
+	
+	ul li {
+		list-style:none;
+		
+		a {
+			color:#FFF;
+		}
+		img {
+			max-width:100%;
+		}
+	}
+	li:first-child {
+		color:$amarillo;
+		text-transform:uppercase;
+		font-weight:400;
+		padding-bottom:10px;
+		font-size:$em-1 * 1.3;
+	}
 	
 }
 //footer

@@ -28,11 +28,43 @@
           <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 text-center logo no-column">
             <img src="img/logoHKB.svg" alt="">
           </div>
-          <div class="col-lg-6 col-md-7 col-sm-12 col-xs-12 no-column">
+          <div id="home-menu" class="col-lg-6 col-md-7 col-sm-12 col-xs-12 no-column">
             <ul id="jetmenu" class="jetmenu grey">
                     <li class="active"><a href="#">Home</a></li>
+                    
                     <li><a href="#">Grid system</a>
                         <div class="megamenu full-width">
+                        	<div class="wrapper-in box fwidth fleft">
+                            	<div class="container-fluid">
+                                	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-left">
+                                    	<h4>Lo mejor de Cocina</h4>
+                                        <div class="clearfix"></div>
+                                        <div class="container-fluid productos-menu">
+                                        	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
+                                            	<img src="img/img-menu-cocina.jpg" alt="">
+                                                <h2>$56.000</h2>
+                                                <p>Producto</p>
+                                                <button class="solicitar">Comprar</button>
+                                            </div>
+                                        	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
+                                            	<img src="img/img-menu-cocina.jpg" alt="">
+                                                <h2>$56.000</h2>
+                                                <p>Producto</p>
+                                                <button class="solicitar">Comprar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    	<p>chao</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>				
+
+                    <li><a href="#">Grid system</a>
+                        <div class="megamenu full-width">
+                        	<div class="wrapper-in box fwidth fleft">
                             <div class="row">
                                 <div style="background: #444; text-align: center" class="col1">1/6</div>
                                 <div style="background: #444; text-align: center" class="col1">1/6</div>
@@ -90,6 +122,7 @@
                                 <div style="background: #444; text-align: center" class="col3">3/6</div>
                                 <div style="background: #444; text-align: center" class="col1">1/6</div>
                             </div>
+                            </div>
                         </div>
                     </li>				
                     
@@ -104,7 +137,7 @@
       
      <section id="main" class="container-fluid no-column">
      
-      <?php /*?>
+      
         <div id="slide-home" class="flexslider">
           <ul class="slides">
             <li>
@@ -121,7 +154,7 @@
   	    		</li>
           </ul>
         </div>
-        <!--slider--><?php */?>
+        <!--slider-->
         
         <div class="clearfix"></div>
         <div class="productos-destacados" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-column text-center">
@@ -130,7 +163,7 @@
         <!--bajada slider-->
         <div class="clearfix"></div>
         
-        <?php /*?><div id="prod-dest-1-home" class="container-fluid no-column">
+        <div id="prod-dest-1-home" class="container-fluid no-column">
         	<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 no-column">
                 
                 <div class="container-fluid no-column">
@@ -163,11 +196,11 @@
                 </div>
             </div>
             
-        </div><?php */?>
+        </div>
         <!--producto destacado-->
         
         
-        <?php /*?><div id="dest-2-3" class="container-fluid no-column">
+        <div id="dest-2-3" class="container-fluid no-column">
         	
             <div class="col-lg-offset-1 col-md-offset-1 col-lg-10 col-md-10 col-sm-12 col-xs-12 no-column">
             	<div class="container-fluid no-column">
@@ -357,9 +390,9 @@
             
             
         </div>
-        <!--/produtos destacados 2--><?php */?>
+        <!--/produtos destacados 2-->
         
-        <?php /*?><div id="inscribe-correo" class="container-fluid no-column">
+        <div id="inscribe-correo" class="container-fluid no-column">
         
         	<div class="col-lg-offset-1 col-md-offset-1 col-lg-10 col-md-10 col-sm-12 col-xs-12 no-column">
             	<div class="container-fluid no-column">
@@ -389,14 +422,52 @@
             </div>
             
         </div>
-        <!--inscribe correo--><?php */?>
+        <!--inscribe correo-->
         
       </section>
       <!--/main-->
       
       <footer class="container-fluid no-column">
-      	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-column">
-        	
+      	<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 no-column">
+        	<div class="container-fluid no-column">
+            	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+                	<ul>
+                    	<li>Conoce HKB</li>
+                    	<li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Equipo</a></li>
+                        <li><a href="#">Misión y Visión</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        
+                    </ul>
+                </div>
+            	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+                	<ul>
+                    	<li>Tienda</li>
+                    	<li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Cómo comprar</a></li>
+                        <li><a href="#">Cambios y devoluciones</a></li>
+                        <li><a href="#">Plazos y Costos</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        
+                    </ul>
+                </div>
+            	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                	<ul>
+                    	<li>Siguenos</li>
+                        <li><a href="#"><i class="fa fa-facebook fa-3x"></i></a> &nbsp;<a href="#"><i class="fa fa-twitter fa-3x"></i></a> &nbsp;<a href="#"><i class="fa fa-instagram fa-3x"></i></a> &nbsp;<a href="#"><i class="fa fa-pinterest fa-3x"></i></a> &nbsp;</li>
+                    </ul>
+                </div>
+            	<div class="col-lg-5 col-md-5 col-sm-6 col-xs-6">
+                	<ul>
+                    	<li>Medios de Pago</li>
+                        <li><img src="img/medios-de-pago.png" alt="">
+                    </ul>
+                </div>
+                
+                
+                
+            </div>
         </div>	
         <!--container-->
       </footer>

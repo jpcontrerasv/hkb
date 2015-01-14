@@ -1,8 +1,8 @@
-.content{
+.content {
 	margin: 30px 100px;
 	display: block;
 }
-.panel{
+.panel {
 	position: absolute;
 	padding: 5px;
 	height: 20px;
@@ -12,29 +12,57 @@
 	margin: 150px 0 0 -125px;
 	z-index: 1;
 }
-.panel a{
-	display: inline-block; 
-	width: 30px; 
+.panel a {
+	display: inline-block;
+	width: 30px;
 	margin: 0;
-	height: 30px; 
-	outline: none; 
+	height: 30px;
+	outline: none;
 	border: solid 1px #333;
 }
-.panel a:nth-child(1){ background: #e0e0e0; }
-.panel a:nth-child(2){ background: #111111; }
-.panel a:nth-child(3){ background: #82837E; }
-.panel a:nth-child(4){ background: #02b8fa; }
-.panel a:nth-child(5){ background: #008C9E; }
-.panel a:nth-child(6){ background: #88c425; }
-.panel a:nth-child(7){ background: #2ecc71; }
-.panel a:nth-child(8){ background: #C21A01; }
-.panel a:nth-child(9){ background: #FA023C; }
-.panel a:nth-child(10){ background: #ff670f; }
-.panel a:nth-child(11){ background: #D46D22; }
-.panel a:nth-child(12){ background: #febf01; }
-.panel a:nth-child(13){ background: #a849a3; }
-.panel a:nth-child(14){ background: #F56991; }
-.jetmenu{
+.panel a:nth-child(1) {
+	background: #e0e0e0;
+}
+.panel a:nth-child(2) {
+	background: #111111;
+}
+.panel a:nth-child(3) {
+	background: #82837E;
+}
+.panel a:nth-child(4) {
+	background: #02b8fa;
+}
+.panel a:nth-child(5) {
+	background: #008C9E;
+}
+.panel a:nth-child(6) {
+	background: #88c425;
+}
+.panel a:nth-child(7) {
+	background: #2ecc71;
+}
+.panel a:nth-child(8) {
+	background: #C21A01;
+}
+.panel a:nth-child(9) {
+	background: #FA023C;
+}
+.panel a:nth-child(10) {
+	background: #ff670f;
+}
+.panel a:nth-child(11) {
+	background: #D46D22;
+}
+.panel a:nth-child(12) {
+	background: #febf01;
+}
+.panel a:nth-child(13) {
+	background: #a849a3;
+}
+.panel a:nth-child(14) {
+	background: #F56991;
+}
+.jetmenu {
 	margin: 0 0 20px 0;
 	z-index: 99;
 }
@@ -49,23 +77,22 @@ ITEM PAGE: http://codecanyon.net/item/jet-responsive-megamenu/5719593
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @import "font-awesome.css";
-
 /* MENU CONFIGURATION
 **********************************************************/
-.jetmenu{
+.jetmenu {
 	width: 100%;
 	padding: 0;
 	margin: 0;
 	position: relative;
 	float: left;
 	list-style: none;
-	margin-top:3.5%;
+	margin-top: 3.5%;
 }
-.jetmenu li{
+.jetmenu li {
 	display: inline-block;
 	float: left;
 }
-.jetmenu a{
+.jetmenu a {
 	-o-transition: all .3s linear;
 	-webkit-transition: all .3s linear;
 	-moz-transition: all .3s linear;
@@ -73,7 +100,7 @@ ITEM PAGE: http://codecanyon.net/item/jet-responsive-megamenu/5719593
 	outline: none;
 	z-index: 10;
 }
-.jetmenu > li > a{
+.jetmenu > li > a {
 	padding: 5px 24px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
@@ -81,167 +108,157 @@ ITEM PAGE: http://codecanyon.net/item/jet-responsive-megamenu/5719593
 	text-decoration: none;
 	display: inline-block;
 }
-.jetmenu > li:hover > a,
-.jetmenu > li.active > a{
+.jetmenu > li:hover > a, .jetmenu > li.active > a {
 	background: #FFF;
 	color: #5b5c5c;
 }
-
 /* DROPDOWN CONFIGURATION
 **********************************************************/
-.jetmenu ul.dropdown, 
-.jetmenu ul.dropdown li ul.dropdown {
+.jetmenu ul.dropdown, .jetmenu ul.dropdown li ul.dropdown {
 	list-style: none;
-    margin: 0;
-    padding: 0;   
+	margin: 0;
+	padding: 0;
 	display: none;
-    position: absolute;
-    z-index: 99;
+	position: absolute;
+	z-index: 99;
 	min-width: 134px;
 }
-.jetmenu ul.dropdown{
-    top: 60px;
+.jetmenu ul.dropdown {
+	top: 60px;
 }
-.jetmenu ul.dropdown li ul.dropdown{
-    left: 100%;
+.jetmenu ul.dropdown li ul.dropdown {
+	left: 100%;
 	top: inherit;
 }
-.jetmenu ul.dropdown li{
-	clear:both;
-	width:100%;
+.jetmenu ul.dropdown li {
+	clear: both;
+	width: 100%;
 	font-size: 12px;
 }
-.jetmenu ul.dropdown li a{
-	width:100%;
+.jetmenu ul.dropdown li a {
+	width: 100%;
 	padding: 12px 24px 12px;
-	display:inline-block;
-	float:left;
-	clear:both;
+	display: inline-block;
+	float: left;
+	clear: both;
 	font-family: 'Open Sans', sans-serif;
 	text-decoration: none;
 	color: #999;
-	box-sizing:border-box;
-	-moz-box-sizing:border-box; 
-	-webkit-box-sizing:border-box;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 }
-.jetmenu ul.dropdown li:hover > a{
+.jetmenu ul.dropdown li:hover > a {
 }
-
 /* dropdowns to left side */
-.jetmenu ul.dropdown li ul.dropdown.left{
-    left: auto;
+.jetmenu ul.dropdown li ul.dropdown.left {
+	left: auto;
 	right: 100%;
 }
-
 /* SUBMENU INDICATORS
 **********************************************************/
-.jetmenu .indicator{
+.jetmenu .indicator {
 	position: relative;
 	left: 5px;
 	top: 0;
 	font-size: 14px;
 	float: right;
 }
-.jetmenu ul li .indicator{
+.jetmenu ul li .indicator {
 	font-size: 12px;
 	top: 1px;
 	left: 10px;
 }
-
 /* MEGAMENU
 **********************************************************/
-.jetmenu > li > .megamenu{
+.jetmenu > li > .megamenu {
 	position: absolute;
 	display: none;
-	background: #333333;
-	width: 25%;
+	width: 100%;
 	top: 30px;
-	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
 	color: #999;
 	z-index: 99;
-	padding: 20px 30px 20px;
-	border-top: 1px solid #000;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+	padding-top:40px;
 }
 
+#home-menu .jetmenu > li > .megamenu > .wrapper-in{
+	padding: 57px 10px 43px 10px;
+	background: #FFF;
+	font-family: 'Open Sans', sans-serif;
+	
+-webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.48);
+-moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.48);
+box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.48);
+}
+
+
+
 /* megamenu list */
-.jetmenu li > .megamenu ul{
+.jetmenu li > .megamenu ul {
 	margin: 0 0 20px 0;
 	float: left;
 	padding: 0;
 	display: block;
 	position: relative;
 }
-.jetmenu li > .megamenu ul li{
+.jetmenu li > .megamenu ul li {
 	width: 100%;
 	padding: 4px 0;
 }
-.jetmenu li > .megamenu ul li.title{
+.jetmenu li > .megamenu ul li.title {
 	margin: 0 0 8px;
 	padding: 0 0 5px;
 	font-size: 14px;
 	border-bottom: solid 1px #666;
 }
-
 /* megamenu h5 */
-.jetmenu li > .megamenu h5{
+.jetmenu li > .megamenu h5 {
 	width: 100%;
 	margin: 0;
 	padding: 0;
 }
-
 /* megamenu links */
-.jetmenu li > .megamenu a{
+.jetmenu li > .megamenu a {
 	color: #999;
 	text-decoration: none;
 	font-size: 12px;
-	-webkit-transition: color 0.3s linear; 
-	-moz-transition: color 0.3s linear; 
-	-o-transition: color 0.3s linear; 
-	transition: color 0.3s linear; 
+	-webkit-transition: color 0.3s linear;
+	-moz-transition: color 0.3s linear;
+	-o-transition: color 0.3s linear;
+	transition: color 0.3s linear;
 }
-.jetmenu li > .megamenu a:hover{
+.jetmenu li > .megamenu a:hover {
 	color: #dedede;
 }
-
 /* megamenu images */
-.jetmenu  .megamenu img{
+.jetmenu .megamenu img {
 	width: 100%;
-	-webkit-transition: border 0.3s linear; 
+	-webkit-transition: border 0.3s linear;
 	-moz-transition: border 0.3s linear;
 	-o-transition: border 0.3s linear;
 	transition: border 0.3s linear;
 }
-
 /* to fix right attribute on submenus (menu aligned to left (default)) */
-.jetmenu > li.fix-sub > .megamenu,
-.jetmenu > li.fix-sub > .megamenu.half-width,
-.jetmenu > li.fix-sub > .dropdown{
+.jetmenu > li.fix-sub > .megamenu, .jetmenu > li.fix-sub > .megamenu.half-width, .jetmenu > li.fix-sub > .dropdown {
 	right: 0;
 }
-
 /* MEGAMENU WIDTHS
 **********************************************************/
-.jetmenu > li > .megamenu.half-width{
+.jetmenu > li > .megamenu.half-width {
 	width: 50%;
 }
-.jetmenu > li > .megamenu.full-width{
-	width: 100%;
+.jetmenu > li > .megamenu.full-width {
+	width: 140%;
 	left: 0;
 }
-
 /* MEGAMENU FORM CONFIGURATION
 **********************************************************/
-.jetmenu li > .megamenu form{
+.jetmenu li > .megamenu form {
 	width: 100%;
 }
-
 /* megamenu inputs */
-.jetmenu li > .megamenu form input[type="text"],
-.jetmenu li > .megamenu form textarea{
+.jetmenu li > .megamenu form input[type="text"], .jetmenu li > .megamenu form textarea {
 	padding: 5px;
 	color: #999;
 	background: #444;
@@ -252,24 +269,23 @@ ITEM PAGE: http://codecanyon.net/item/jet-responsive-megamenu/5719593
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	-webkit-transition: border 0.3s linear; 
+	-webkit-transition: border 0.3s linear;
 	-moz-transition: border 0.3s linear;
 	-o-transition: border 0.3s linear;
 	transition: border 0.3s linear;
 }
-.jetmenu li > .megamenu form input[type="text"]:focus,
-.jetmenu li > .megamenu form textarea:focus{
+.jetmenu li > .megamenu form input[type="text"]:focus, .jetmenu li > .megamenu form textarea:focus {
 	border-color: #e0e0e0;
 }
-.jetmenu li > .megamenu form input[type="text"]{
+.jetmenu li > .megamenu form input[type="text"] {
 	width: 100%;
 	margin-top: 10px;
 }
-.jetmenu li > .megamenu form textarea{
+.jetmenu li > .megamenu form textarea {
 	width: 100%;
 	margin-top: 10px;
 }
-.jetmenu li > .megamenu form input[type="submit"]{
+.jetmenu li > .megamenu form input[type="submit"] {
 	width: 25%;
 	float: right;
 	height: 30px;
@@ -279,27 +295,25 @@ ITEM PAGE: http://codecanyon.net/item/jet-responsive-megamenu/5719593
 	background: #444;
 	color: #777;
 	font-family: 'Open Sans', sans-serif;
-	-webkit-transition: background 0.3s linear; 
-	-moz-transition: background 0.3s linear; 
-	-o-transition: background 0.3s linear; 
-	transition: background 0.3s linear; 
+	-webkit-transition: background 0.3s linear;
+	-moz-transition: background 0.3s linear;
+	-o-transition: background 0.3s linear;
+	transition: background 0.3s linear;
 }
-.jetmenu li > .megamenu form input[type="submit"]:hover{
+.jetmenu li > .megamenu form input[type="submit"]:hover {
 	background: #e0e0e0;
 	color: #555;
 }
-
 /* MEGAMENU GRID SYSTEM
 **********************************************************/
-.megamenu .row{
+.megamenu .row {
 	width: 100%;
 	margin-top: 15px;
 }
 .megamenu .row:first-child {
 	margin-top: 0;
 }
-.megamenu .row:before,
-.megamenu .row:after {
+.megamenu .row:before, .megamenu .row:after {
 	display: table;
 	content: "";
 	line-height: 0;
@@ -307,12 +321,7 @@ ITEM PAGE: http://codecanyon.net/item/jet-responsive-megamenu/5719593
 .megamenu .row:after {
 	clear: both;
 }
-.megamenu .row .col1,
-.megamenu .row .col2,
-.megamenu .row .col3,
-.megamenu .row .col4,
-.megamenu .row .col5,
-.megamenu .row .col6{
+.megamenu .row .col1, .megamenu .row .col2, .megamenu .row .col3, .megamenu .row .col4, .megamenu .row .col5, .megamenu .row .col6 {
 	display: block;
 	width: 100%;
 	min-height: 20px;
@@ -325,58 +334,50 @@ ITEM PAGE: http://codecanyon.net/item/jet-responsive-megamenu/5719593
 .megamenu .row [class*="col"]:first-child {
 	margin-left: 0;
 }
-.megamenu .row .col1{
+.megamenu .row .col1 {
 	width: 14.893617021276595%;
 }
-.megamenu .row .col2{
+.megamenu .row .col2 {
 	width: 31.914893617021278%;
 }
-.megamenu .row .col3{
+.megamenu .row .col3 {
 	width: 48.93617021276595%;
 }
-.megamenu .row .col4{
+.megamenu .row .col4 {
 	width: 65.95744680851064%;
 }
-.megamenu .row .col5{
+.megamenu .row .col5 {
 	width: 82.97872340425532%;
 }
-.megamenu .row .col6{
+.megamenu .row .col6 {
 	width: 100%;
 }
-
 /* RIGHT ALIGNMENT (MENU ITEM)
 **********************************************************/
-.jetmenu > li.right{
+.jetmenu > li.right {
 	float: right;
 }
-.jetmenu > li.right > .megamenu,
-.jetmenu > li.right > .megamenu.half-width,
-.jetmenu > li.right > .dropdown{
+.jetmenu > li.right > .megamenu, .jetmenu > li.right > .megamenu.half-width, .jetmenu > li.right > .dropdown {
 	right: 0;
 }
-
 /* to fix right attribute on submenus (menu aligned to right) */
-.jetmenu > li.jsright{
+.jetmenu > li.jsright {
 	float: right;
 }
-.jetmenu > li.jsright.last > .megamenu,
-.jetmenu > li.jsright.last > .megamenu.half-width,
-.jetmenu > li.jsright.last > .dropdown{
+.jetmenu > li.jsright.last > .megamenu, .jetmenu > li.jsright.last > .megamenu.half-width, .jetmenu > li.jsright.last > .dropdown {
 	right: 0;
 }
-
 /* ICONS (FONT AWESOME)
 **********************************************************/
-.jetmenu > li > a > i{
+.jetmenu > li > a > i {
 	line-height: 23px !important;
 	margin-right: 6px;
 	font-size: 18px;
 	float: left;
 }
-
 /* COLLAPSIBLE MENU
 **********************************************************/
-.jetmenu > li.showhide{
+.jetmenu > li.showhide {
 	display: none;
 	width: 100%;
 	height: 50px;
@@ -384,182 +385,346 @@ ITEM PAGE: http://codecanyon.net/item/jet-responsive-megamenu/5719593
 	color: #999;
 	background: #333;
 }
-.jetmenu > li.showhide span.title{
+.jetmenu > li.showhide span.title {
 	margin: 15px 0 0 25px;
 	font-family: 'Open Sans', sans-serif;
 	float: left;
 }
-.jetmenu > li.showhide span.icon{
+.jetmenu > li.showhide span.icon {
 	margin: 17px 20px;
 	float: right;
 }
-.jetmenu > li.showhide .icon em{
+.jetmenu > li.showhide .icon em {
 	margin-bottom: 3px;
 	display: block;
 	width: 20px;
 	height: 2px;
 	background: #999;
 }
-
 /* STYLES
 **********************************************************/
 
 /* black */
-.black > li:hover > a, .black > li.active > a{ background: #111111;	color: #fff; }
-.black ul.dropdown li:hover > a{ background: #111111; color: #fff; }
-.black li > .megamenu form input[type="text"]:focus, .black li > .megamenu form textarea:focus{ border-color: #111111; }
-.black li > .megamenu form input[type="submit"]:hover{ background: #111111; color: #fff; }
-.black li > .megamenu a:hover{ color: #dedede; }
-
+.black > li:hover > a, .black > li.active > a {
+	background: #111111;
+	color: #fff;
+}
+.black ul.dropdown li:hover > a {
+	background: #111111;
+	color: #fff;
+}
+.black li > .megamenu form input[type="text"]:focus, .black li > .megamenu form textarea:focus {
+	border-color: #111111;
+}
+.black li > .megamenu form input[type="submit"]:hover {
+	background: #111111;
+	color: #fff;
+}
+.black li > .megamenu a:hover {
+	color: #dedede;
+}
 /* grey */
-.grey > li:hover > a, .grey > li.active > a{ background: #82837E;	color: #fff; }
-.grey ul.dropdown li:hover > a{ background: #82837E; color: #fff; }
-.grey li > .megamenu form input[type="text"]:focus, .grey li > .megamenu form textarea:focus{ border-color: #82837E; }
-.grey li > .megamenu form input[type="submit"]:hover{ background: #82837E; color: #fff; }
-.grey li > .megamenu a:hover{ color: #dedede; }
-
+.grey > li:hover > a, .grey > li.active > a {
+	background: #82837E;
+	color: #fff;
+}
+.grey ul.dropdown li:hover > a {
+	background: #82837E;
+	color: #fff;
+}
+.grey li > .megamenu form input[type="text"]:focus, .grey li > .megamenu form textarea:focus {
+	border-color: #82837E;
+}
+.grey li > .megamenu form input[type="submit"]:hover {
+	background: #82837E;
+	color: #fff;
+}
+.grey li > .megamenu a:hover {
+	color: #dedede;
+}
 /* blue */
-.blue > li:hover > a, .blue > li.active > a{	background: #02b8fa; color: #fff; }
-.blue ul.dropdown li:hover > a{ background: #02b8fa; color: #fff; }
-.blue li > .megamenu form input[type="text"]:focus, .blue li > .megamenu form textarea:focus{ border-color: #02b8fa; }
-.blue li > .megamenu form input[type="submit"]:hover{ background: #02b8fa; color: #fff; }
-.blue li > .megamenu a:hover{ color: #02b8fa; }
-
+.blue > li:hover > a, .blue > li.active > a {
+	background: #02b8fa;
+	color: #fff;
+}
+.blue ul.dropdown li:hover > a {
+	background: #02b8fa;
+	color: #fff;
+}
+.blue li > .megamenu form input[type="text"]:focus, .blue li > .megamenu form textarea:focus {
+	border-color: #02b8fa;
+}
+.blue li > .megamenu form input[type="submit"]:hover {
+	background: #02b8fa;
+	color: #fff;
+}
+.blue li > .megamenu a:hover {
+	color: #02b8fa;
+}
 /* deeper */
-.deeper > li:hover > a, .deeper > li.active > a{	background: #008C9E; color: #fff; }
-.deeper ul.dropdown li:hover > a{ background: #008C9E; color: #fff; }
-.deeper li > .megamenu form input[type="text"]:focus, .deeper li > .megamenu form textarea:focus{ border-color: #008C9E; }
-.deeper li > .megamenu form input[type="submit"]:hover{ background: #008C9E; color: #fff; }
-.deeper li > .megamenu a:hover{ color: #008C9E; }
-
+.deeper > li:hover > a, .deeper > li.active > a {
+	background: #008C9E;
+	color: #fff;
+}
+.deeper ul.dropdown li:hover > a {
+	background: #008C9E;
+	color: #fff;
+}
+.deeper li > .megamenu form input[type="text"]:focus, .deeper li > .megamenu form textarea:focus {
+	border-color: #008C9E;
+}
+.deeper li > .megamenu form input[type="submit"]:hover {
+	background: #008C9E;
+	color: #fff;
+}
+.deeper li > .megamenu a:hover {
+	color: #008C9E;
+}
 /* green */
-.green > li:hover > a, .green > li.active > a{ background: #88c425;	color: #fff; }
-.green ul.dropdown li:hover > a{ background: #88c425; color: #fff; }
-.green li > .megamenu form input[type="text"]:focus, .green li > .megamenu form textarea:focus{ border-color: #88c425; }
-.green li > .megamenu form input[type="submit"]:hover{ background: #88c425; color: #fff; }
-.green li > .megamenu a:hover{ color: #88c425; }
-
+.green > li:hover > a, .green > li.active > a {
+	background: #88c425;
+	color: #fff;
+}
+.green ul.dropdown li:hover > a {
+	background: #88c425;
+	color: #fff;
+}
+.green li > .megamenu form input[type="text"]:focus, .green li > .megamenu form textarea:focus {
+	border-color: #88c425;
+}
+.green li > .megamenu form input[type="submit"]:hover {
+	background: #88c425;
+	color: #fff;
+}
+.green li > .megamenu a:hover {
+	color: #88c425;
+}
 /* emerald */
-.emerald > li:hover > a, .emerald > li.active > a{ background: #2ecc71;	color: #fff; }
-.emerald ul.dropdown li:hover > a{ background: #2ecc71; color: #fff; }
-.emerald li > .megamenu form input[type="text"]:focus, .emerald li > .megamenu form textarea:focus{ border-color: #2ecc71; }
-.emerald li > .megamenu form input[type="submit"]:hover{ background: #2ecc71; color: #fff; }
-.emerald li > .megamenu a:hover{ color: #2ecc71; }
-
+.emerald > li:hover > a, .emerald > li.active > a {
+	background: #2ecc71;
+	color: #fff;
+}
+.emerald ul.dropdown li:hover > a {
+	background: #2ecc71;
+	color: #fff;
+}
+.emerald li > .megamenu form input[type="text"]:focus, .emerald li > .megamenu form textarea:focus {
+	border-color: #2ecc71;
+}
+.emerald li > .megamenu form input[type="submit"]:hover {
+	background: #2ecc71;
+	color: #fff;
+}
+.emerald li > .megamenu a:hover {
+	color: #2ecc71;
+}
 /* red */
-.red > li:hover > a, .red > li.active > a{ background: #C21A01;	color: #fff; }
-.red ul.dropdown li:hover > a{ background: #C21A01; color: #fff; }
-.red li > .megamenu form input[type="text"]:focus, .red li > .megamenu form textarea:focus{ border-color: #C21A01; }
-.red li > .megamenu form input[type="submit"]:hover{ background: #C21A01; color: #fff; }
-.red li > .megamenu a:hover{ color: #C21A01; }
-
+.red > li:hover > a, .red > li.active > a {
+	background: #C21A01;
+	color: #fff;
+}
+.red ul.dropdown li:hover > a {
+	background: #C21A01;
+	color: #fff;
+}
+.red li > .megamenu form input[type="text"]:focus, .red li > .megamenu form textarea:focus {
+	border-color: #C21A01;
+}
+.red li > .megamenu form input[type="submit"]:hover {
+	background: #C21A01;
+	color: #fff;
+}
+.red li > .megamenu a:hover {
+	color: #C21A01;
+}
 /* pox */
-.pox > li:hover > a, .pox > li.active > a{ background: #FA023C;	color: #fff; }
-.pox ul.dropdown li:hover > a{ background: #FA023C; color: #fff; }
-.pox li > .megamenu form input[type="text"]:focus, .pox li > .megamenu form textarea:focus{ border-color: #FA023C; }
-.pox li > .megamenu form input[type="submit"]:hover{ background: #FA023C; color: #fff; }
-.pox li > .megamenu a:hover{ color: #FA023C; }
-
+.pox > li:hover > a, .pox > li.active > a {
+	background: #FA023C;
+	color: #fff;
+}
+.pox ul.dropdown li:hover > a {
+	background: #FA023C;
+	color: #fff;
+}
+.pox li > .megamenu form input[type="text"]:focus, .pox li > .megamenu form textarea:focus {
+	border-color: #FA023C;
+}
+.pox li > .megamenu form input[type="submit"]:hover {
+	background: #FA023C;
+	color: #fff;
+}
+.pox li > .megamenu a:hover {
+	color: #FA023C;
+}
 /* orange */
-.orange > li:hover > a, .orange > li.active > a{	background: #ff670f; color: #fff; }
-.orange ul.dropdown li:hover > a{ background: #ff670f; color: #fff; }
-.orange li > .megamenu form input[type="text"]:focus, .orange li > .megamenu form textarea:focus{ border-color: #ff670f; }
-.orange li > .megamenu form input[type="submit"]:hover{ background: #ff670f; color: #fff; }
-.orange li > .megamenu a:hover{ color: #ff670f; }
-
+.orange > li:hover > a, .orange > li.active > a {
+	background: #ff670f;
+	color: #fff;
+}
+.orange ul.dropdown li:hover > a {
+	background: #ff670f;
+	color: #fff;
+}
+.orange li > .megamenu form input[type="text"]:focus, .orange li > .megamenu form textarea:focus {
+	border-color: #ff670f;
+}
+.orange li > .megamenu form input[type="submit"]:hover {
+	background: #ff670f;
+	color: #fff;
+}
+.orange li > .megamenu a:hover {
+	color: #ff670f;
+}
 /* sunburst */
-.sunburst > li:hover > a, .sunburst > li.active > a{	background: #D46D22; color: #fff; }
-.sunburst ul.dropdown li:hover > a{ background: #D46D22; color: #fff; }
-.sunburst li > .megamenu form input[type="text"]:focus, .sunburst li > .megamenu form textarea:focus{ border-color: #D46D22; }
-.sunburst li > .megamenu form input[type="submit"]:hover{ background: #D46D22; color: #fff; }
-.sunburst li > .megamenu a:hover{ color: #D46D22; }
-
+.sunburst > li:hover > a, .sunburst > li.active > a {
+	background: #D46D22;
+	color: #fff;
+}
+.sunburst ul.dropdown li:hover > a {
+	background: #D46D22;
+	color: #fff;
+}
+.sunburst li > .megamenu form input[type="text"]:focus, .sunburst li > .megamenu form textarea:focus {
+	border-color: #D46D22;
+}
+.sunburst li > .megamenu form input[type="submit"]:hover {
+	background: #D46D22;
+	color: #fff;
+}
+.sunburst li > .megamenu a:hover {
+	color: #D46D22;
+}
 /* yellow */
-.yellow > li:hover > a, .yellow > li.active > a{	background: #febf01; color: #222; }
-.yellow ul.dropdown li:hover > a{ background: #febf01; color: #222; }
-.yellow li > .megamenu form input[type="text"]:focus, .yellow li > .megamenu form textarea:focus{ border-color: #febf01; }
-.yellow li > .megamenu form input[type="submit"]:hover{ background: #febf01; color: #222; }
-.yellow li > .megamenu a:hover{ color: #febf01; }
-
+.yellow > li:hover > a, .yellow > li.active > a {
+	background: #febf01;
+	color: #222;
+}
+.yellow ul.dropdown li:hover > a {
+	background: #febf01;
+	color: #222;
+}
+.yellow li > .megamenu form input[type="text"]:focus, .yellow li > .megamenu form textarea:focus {
+	border-color: #febf01;
+}
+.yellow li > .megamenu form input[type="submit"]:hover {
+	background: #febf01;
+	color: #222;
+}
+.yellow li > .megamenu a:hover {
+	color: #febf01;
+}
 /* purple */
-.purple > li:hover > a, .purple > li.active > a{	background: #a849a3; color: #fff; }
-.purple ul.dropdown li:hover > a{ background: #a849a3; color: #fff; }
-.purple li > .megamenu form input[type="text"]:focus, .purple li > .megamenu form textarea:focus{ border-color: #a849a3; }
-.purple li > .megamenu form input[type="submit"]:hover{ background: #a849a3; color: #fff; }
-.purple li > .megamenu a:hover{ color: #a849a3; }
-
+.purple > li:hover > a, .purple > li.active > a {
+	background: #a849a3;
+	color: #fff;
+}
+.purple ul.dropdown li:hover > a {
+	background: #a849a3;
+	color: #fff;
+}
+.purple li > .megamenu form input[type="text"]:focus, .purple li > .megamenu form textarea:focus {
+	border-color: #a849a3;
+}
+.purple li > .megamenu form input[type="submit"]:hover {
+	background: #a849a3;
+	color: #fff;
+}
+.purple li > .megamenu a:hover {
+	color: #a849a3;
+}
 /* pink */
-.pink > li:hover > a, .pink > li.active > a{	background: #F56991; color: #fff; }
-.pink ul.dropdown li:hover > a{ background: #F56991; color: #fff; }
-.pink li > .megamenu form input[type="text"]:focus, .pink li > .megamenu form textarea:focus{ border-color: #F56991; }
-.pink li > .megamenu form input[type="submit"]:hover{ background: #F56991; color: #fff; }
-.pink li > .megamenu a:hover{ color: #F56991; }
+.pink > li:hover > a, .pink > li.active > a {
+	background: #F56991;
+	color: #fff;
+}
+.pink ul.dropdown li:hover > a {
+	background: #F56991;
+	color: #fff;
+}
+.pink li > .megamenu form input[type="text"]:focus, .pink li > .megamenu form textarea:focus {
+	border-color: #F56991;
+}
+.pink li > .megamenu form input[type="submit"]:hover {
+	background: #F56991;
+	color: #fff;
+}
+.pink li > .megamenu a:hover {
+	color: #F56991;
+}
 
 /* RESPONSIVE LAYOUT
 **********************************************************/
 @media (max-width: 768px) {
-	.jetmenu > li{
-		display: block;
-		width: 100%;
-		box-sizing:border-box;
-		-moz-box-sizing:border-box; 
-		-webkit-box-sizing:border-box;
-	}
-	.jetmenu > li > a{
-		padding: 15px 25px;
-	}
-	.jetmenu a{
-		width: 100%;
-		background: #333;
-		box-sizing:border-box;
-		-moz-box-sizing:border-box; 
-		-webkit-box-sizing:border-box; 
-	}
-	.jetmenu ul.dropdown, 
-	.jetmenu ul.dropdown li ul.dropdown{
-		width: 100% !important;
-		left: 0;
-		position: static !important;
-		border: none;
-		box-sizing:border-box;
-		-moz-box-sizing:border-box; 
-		-webkit-box-sizing:border-box; 
-	}
-	.jetmenu ul.dropdown li {
-		background: #fff !important;
-		border: none;
-	}
-	.jetmenu ul.dropdown > li > a{
-		padding-left: 40px !important;
-	}
-	.jetmenu > li > .megamenu{
-		width: 100% !important;
-		position: static;
-		border-top: none;
-	}
-	.jetmenu > li > .megamenu .row [class*="col"]{
-		float: none;
-		display: block;
-		width: 100% !important;
-		margin-left: 0;
-		margin-top: 15px;
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		box-sizing: border-box;
-	}
-	.jetmenu > li > .megamenu .row:first-child  [class*="col"]:first-child {
-		margin-top: 0;
-	}
-	.jetmenu > li > .megamenu .row{
-		margin-top: 0;
-	}
-	.jetmenu > li > ul.dropdown > li > a{ padding-left: 40px !important; }
-	.jetmenu > li > ul.dropdown > li > ul.dropdown > li > a{ padding-left: 60px !important; }
-	.jetmenu > li > ul.dropdown > li > ul.dropdown > li > ul.dropdown > li > a{ padding-left: 80px !important; }
+.jetmenu > li > .megamenu  {
+	padding-top:0;
+}
+.jetmenu > li {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.jetmenu > li > a {
+	padding: 15px 25px;
+}
+.jetmenu a {
+	width: 100%;
+	background: #333;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.jetmenu ul.dropdown,  .jetmenu ul.dropdown li ul.dropdown {
+	width: 100% !important;
+	left: 0;
+	position: static !important;
+	border: none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.jetmenu ul.dropdown li {
+	background: #fff !important;
+	border: none;
+}
+.jetmenu ul.dropdown > li > a {
+	padding-left: 40px !important;
+}
+.jetmenu > li > .megamenu {
+	width: 100% !important;
+	position: static;
+	border-top: none;
+}
+.jetmenu > li > .megamenu .row [class*="col"] {
+	float: none;
+	display: block;
+	width: 100% !important;
+	margin-left: 0;
+	margin-top: 15px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.jetmenu > li > .megamenu .row:first-child [class*="col"]:first-child {
+	margin-top: 0;
+}
+.jetmenu > li > .megamenu .row {
+	margin-top: 0;
+}
+.jetmenu > li > ul.dropdown > li > a {
+	padding-left: 40px !important;
+}
+.jetmenu > li > ul.dropdown > li > ul.dropdown > li > a {
+	padding-left: 60px !important;
+}
+.jetmenu > li > ul.dropdown > li > ul.dropdown > li > ul.dropdown > li > a {
+	padding-left: 80px !important;
+}
 }
 @media (min-width: 768px) and (max-width: 900px) {
-	.jetmenu > li > .megamenu{
-		width: 100% !important;
-		left: 0 !important;
-	}
+.jetmenu > li > .megamenu {
+	width: 100% !important;
+	left: 0 !important;
+}
 }
