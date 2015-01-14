@@ -1,12 +1,10 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
-
-
 /*Reset JP*/
 .box {
+	display:block;
+	height:auto;
+	overflow:hidden;
+}
+@mixin box {
 	display:block;
 	height:auto;
 	overflow:hidden;
@@ -82,18 +80,15 @@ header {
 		max-width:100%;
 		min-width:100%;
 		transition:all .5s ease;
-	}
-}
-@media (max-width: 991px) {
-	header .logo img {
-		max-width:70%;
-		min-width:70%;
-	}
-}
-@media only screen and (max-device-width: 991px) {
-	header .logo img {
-		max-width:70%;
-		min-width:70%;
+
+		@media (max-width: 991px) {
+			max-width:70%;
+			min-width:70%;
+		}
+		@media only screen and (max-device-width: 991px) {
+			max-width:70%;
+			min-width:70%;
+		}
 	}
 }
 
@@ -113,6 +108,13 @@ header {
 		width:50%;
 		text-align:center;
 		
+		@media (max-width: 640px) {
+			width:100%;
+		}
+		@media only screen and (max-device-width: 640px) {
+			width:100%;
+		}
+		
 	}
 	h1 span {
 		font-weight:700;
@@ -121,16 +123,6 @@ header {
 }
 
 
-@media (max-width: 640px) {
-	.productos-destacados h1 {
-		width:100%;
-	}
-}
-@media only screen and (max-device-width: 640px) {
-	.productos-destacados h1 {
-		width:100%;
-	}
-}
 
 
 /*Producto destacado*/
@@ -178,15 +170,27 @@ header {
 } //#prod-dest-1-home
 
 #dest-2-3 {
+	padding-bottom:56px;
+	margin-bottom:87px;
+	background:url(../img/bg-prod-dest-home.gif) center bottom no-repeat;
 	
-	.dest-izq-1, .dest-der-2, .dest-izq-3, .dest-der-4 {
+	.dest-izq-1 {
+		background:url(../img/separador-vertical.gif) right 30% no-repeat;
+		
+		@media (max-width: 1200px) {
+			background:none;
+		}
+	}
+	.dest-izq-1, .dest-der-2{
 		margin-bottom:43px;
 			
 		.ico {
 			background:$gris-claro;
 			height:258px;
-			position:relative;
-			overflow:visible;
+			
+			@media only screen and (max-device-width: 480px) {
+				height:158px;
+			}
 			
 			img {
 				display:block;
@@ -196,26 +200,19 @@ header {
 				max-height:220px;
 				min-width:85%;
 				max-width:85%;
-			}
-			.punta {
-				display:block;
-				width:28px;
-				height:58px;
-				
-				position:absolute;
-				top:40%;
-				z-index:999;
-			}
-			.punta-izq {
-				right:-28px;
-				background:url(../img/punta.svg) center center no-repeat;
-			}
-			.punta-der {
-				left:-28px;
-				background:url(../img/punta-der.svg) center center no-repeat;
-			}		
-			
+			} 
 		}
+		.punta {
+			display:block;
+			float:left;
+			height:258px;
+		}
+		.punta-izq {
+			background:url(../img/punta-izq.svg) right center no-repeat;
+		}
+		.punta-der {
+			background:url(../img/punta-der.svg) left center no-repeat;
+		}		
 		//ico
 		
 		.img {
@@ -227,12 +224,10 @@ header {
 				min-width:90%;
 			}
 		}
-				
 		//img
 		
 		.precio {
 			height:258px;
-			
 			
 			h1 {
 				font-weight:200;
@@ -249,6 +244,74 @@ header {
 //#dest-2-3
 
 
+#inscribe-correo {
+	padding-top:20px;
+	padding-bottom:20px;
+	background:$gris-oscuro;
+	color:#FFF;
+	
+	input[type="text"], input[type="email"] {
+		width:100%;
+		border-radius:$radio * 0.5;
+		background:$gris-claro;
+		border:none;
+		padding:5px 10px;
+		margin:5px 0;
+
+		@media (max-width: 990px){
+			margin-bottom:10px;
+		}
+		@media only screen and (max-device-width: 990px) {
+			margin-bottom:10px;
+		}
+		
+	}
+	.solicitar {
+		margin:5px 0;
+	}
+	.texto {
+		font-size:$em-1 * 1.2;
+		
+		p {
+			line-height:1.1em;
+		}
+		p:first-child {
+			font-weight:700;
+		}
+		
+		@media (max-width: 990px) {
+			text-align:center;
+			margin-bottom:10px;
+		}
+		@media only screen and (max-device-width: 990px) {
+			text-align:center;
+			margin-bottom:10px;
+		}
+	}
+}
+::-webkit-input-placeholder {
+	color: #FFF;
+}
+:-moz-placeholder { /* Firefox 18- */
+	color: #FFF;  
+}
+::-moz-placeholder {  /* Firefox 19+ */
+	color: #FFF;  
+}
+:-ms-input-placeholder {  
+	color: #FFF;  
+}
+//inscribe-correo
+
+footer {
+	padding:45px 0 119px 0;
+	background:$gris-claro;
+	
+}
+//footer
+
+
+
 /*Transversales*/
 /*table para centrar verticalmente*/
 .table {
@@ -261,7 +324,7 @@ header {
 	vertical-align:middle;
 }
 /*boton*/
-button.solicitar {
+.solicitar {
 	background:$amarillo;
 	padding:10px 20px;
 	text-transform:uppercase;
@@ -271,6 +334,3 @@ button.solicitar {
 	margin:20px 0;
 	font-weight:600;
 }
-
-
-

@@ -136,7 +136,7 @@
 		"outputAbbreviatedPath": "\/img\/bg_play_pause.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/dest-2.png": {
 		"fileType": 32768,
@@ -147,7 +147,7 @@
 		"outputAbbreviatedPath": "\/img\/dest-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/img-dest-1.jpg": {
 		"fileType": 16384,
@@ -169,7 +169,7 @@
 		"outputAbbreviatedPath": "\/img\/img-slide-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/kitchen_adventurer_caramel.jpg": {
 		"fileType": 16384,
@@ -224,29 +224,7 @@
 		"outputAbbreviatedPath": "\/img\/logo-head.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/punta-der.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1540,
-		"inputAbbreviatedPath": "\/img\/punta-der.png",
-		"outputAbbreviatedPath": "\/img\/punta-der.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/punta.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1538,
-		"inputAbbreviatedPath": "\/img\/punta.png",
-		"outputAbbreviatedPath": "\/img\/punta.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index.php": {
 		"fileType": 8192,
@@ -466,7 +444,7 @@
 		"outputAbbreviatedPath": "\/Jet - Responsive Megamenu\/Responsive version\/documentation\/img\/1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/Jet - Responsive Megamenu\/Responsive version\/documentation\/img\/2.jpg": {
 		"fileType": 16384,
@@ -952,7 +930,7 @@
 		"outputAbbreviatedPath": "\/woothemes-FlexSlider-8b3766e\/demo\/images\/logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/woothemes-FlexSlider-8b3766e\/demo\/index.html": {
 		"fileType": 8192,
@@ -1147,7 +1125,7 @@
 		"outputAbbreviatedPath": "\/woothemes-FlexSlider-8b3766e\/images\/bg_play_pause.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/woothemes-FlexSlider-8b3766e\/jquery.flexslider-min.js": {
 		"fileType": 64,
@@ -1189,7 +1167,7 @@
 	"autoApplyPSLanguageSettingsStyle": 0,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoSyncProjectSettingsFile": 1,
-	"browserRefreshDelay": 0.25,
+	"browserRefreshDelay": 0,
 	"coffeeAutoOutputPathEnabled": 1,
 	"coffeeAutoOutputPathFilenamePattern": "*.js",
 	"coffeeAutoOutputPathRelativePath": "",

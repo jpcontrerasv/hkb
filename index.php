@@ -104,7 +104,7 @@
       
      <section id="main" class="container-fluid no-column">
      
-      
+      <?php /*?>
         <div id="slide-home" class="flexslider">
           <ul class="slides">
             <li>
@@ -121,7 +121,7 @@
   	    		</li>
           </ul>
         </div>
-        <!--slider-->
+        <!--slider--><?php */?>
         
         <div class="clearfix"></div>
         <div class="productos-destacados" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-column text-center">
@@ -130,7 +130,7 @@
         <!--bajada slider-->
         <div class="clearfix"></div>
         
-        <div id="prod-dest-1-home" class="container-fluid no-column">
+        <?php /*?><div id="prod-dest-1-home" class="container-fluid no-column">
         	<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 no-column">
                 
                 <div class="container-fluid no-column">
@@ -163,32 +163,37 @@
                 </div>
             </div>
             
-        </div>
+        </div><?php */?>
         <!--producto destacado-->
         
         
-        <div id="dest-2-3" class="container-fluid no-column">
+        <?php /*?><div id="dest-2-3" class="container-fluid no-column">
         	
             <div class="col-lg-offset-1 col-md-offset-1 col-lg-10 col-md-10 col-sm-12 col-xs-12 no-column">
             	<div class="container-fluid no-column">
                 	
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 no-column dest-izq-1">
                     	<div class="container-fluid no-column">
-                        	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-6 no-column ico no-column">
+                        	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 no-column ico no-column">
                                 <div class="table">
                                     <div class="table-cell">
                                         <img src="img/ico-cocina-2.svg" alt="">
                                     </div>
                                 </div>
-                                <span class="punta punta-izq hidden-xs hidden-md hidden-sm"></span>
                             </div>
-                            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-6 no-column img">
+                            <!--ico-->
+                            <div class="col-lg-1 col-md-1 hidden-sm hidden-xs no-column no-column punta punta-der">
+                            	&nbsp;
+                            </div>
+                            <!--punta-->
+                            <div class="col-lg-5 col-md-5 col-sm-6 col-xs-6 no-column img">
                             	<div class="table">
                                 	<div class="table-cell">
                                     	<img src="img/dest-2.png" alt="">
                                     </div>
                                 </div>
                             </div>
+                            <!--imagen-->
                             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 precio no-column text-center">
                                 <div class="table">
                                     <div class="table-cell">
@@ -199,6 +204,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <!--precio-->
                         </div>
                     </div>
                     <!--destacado izquierda 1-->
@@ -206,21 +212,22 @@
                     
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 no-column dest-der-2">
                         <div class="container-fluid no-column">
-                        	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-6 no-column ico no-column hidden-lg hidden-md">
+                        	<div class="col-sm-6 col-xs-6 no-column ico no-column hidden-lg hidden-md">
                                 <div class="table">
                                     <div class="table-cell">
                                         <img src="img/ico-cama.svg" alt="">
                                     </div>
                                 </div>
-                                <span class="punta punta-der hidden-xs hidden-md hidden-sm"></span>
                             </div>
-                            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-6 no-column img">
+                            <!--ico fantasma-->
+                            <div class="col-lg-5 col-md-5 col-sm-6 col-xs-6 no-column img">
                             	<div class="table">
                                 	<div class="table-cell">
                                     	<img src="img/dest-2.png" alt="">
                                     </div>
                                 </div>
                             </div>
+                            <!--imagen-->
                             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 precio no-column text-center">
                                 <div class="table">
                                     <div class="table-cell">
@@ -231,103 +238,118 @@
                                     </div>
                                 </div>
                             </div>
-                            
-                        	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-6 no-column ico no-column hidden-sm hidden-xs">
+                            <!--precio-->
+                            <div class="col-lg-1 col-md-1 no-column no-column punta punta-izq hidden-sm hidden-xs">
+                            	&nbsp;
+                            </div>
+                            <!--punta-->
+                        	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 no-column ico no-column hidden-sm hidden-xs">
                                 <div class="table">
                                     <div class="table-cell">
                                         <img src="img/ico-cama.svg" alt="">
                                     </div>
                                 </div>
-                                <span class="punta punta-der hidden-xs hidden-md"></span>
                             </div>
-                            
+                            <!--ico-->
                         </div>                    
                     </div>
                     <!--destacado derecha 2-->
                     
                     <div class="clearfix"></div>
                     
-                    
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 no-column dest-izq-3">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 no-column dest-izq-1" style="background:none;">
                     	<div class="container-fluid no-column">
-                        	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-6 no-column ico no-column">
+                            <div class="col-lg-3 col-md-3 hidden-sm hidden-xs precio no-column text-center">
                                 <div class="table">
                                     <div class="table-cell">
-                                        <img src="img/ico-cocina-2.svg" alt="">
+                                    	<h1>$56000</h1>
+                                        <button class="solicitar">Solicitar</button>
                                     </div>
                                 </div>
-                                <span class="punta punta-izq hidden-xs hidden-md hidden-sm"></span>
                             </div>
-                            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-6 no-column img">
+                            <!--precio-->
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 no-column img">
                             	<div class="table">
                                 	<div class="table-cell">
                                     	<img src="img/dest-2.png" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 precio no-column text-center">
+                            <!--imagen-->
+                            <div class="col-lg-1 col-md-1 hidden-sm hidden-xs no-column no-column punta punta-izq">
+                            	&nbsp;
+                            </div>
+                            <!--punta-->
+                        	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 no-column ico no-column">
+                                <div class="table">
+                                    <div class="table-cell">
+                                        <img src="img/ico-bano.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--ico-->
+                            <div class="col-sm-12 col-xs-12 hidden-lg hidden-md precio no-column text-center">
                                 <div class="table">
                                     <div class="table-cell">
                                     	<h1>$56000</h1>
-                                        <p>Loren ipsum</p>
-                                        <p>dolor sit amet</p>
                                         <button class="solicitar">Solicitar</button>
                                     </div>
                                 </div>
+                            </div>
+                            <!--precio fantasma-->
+                            <div class="col-lg-1 col-md-1 hidden-sm hidden-xs no-column vacio">
+                            	&nbsp;
                             </div>
                         </div>
                     </div>
                     <!--destacado izquierda 3-->
                     
                     
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 no-column dest-der-4">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 no-column dest-der-2">
                         <div class="container-fluid no-column">
-                        	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-6 no-column ico no-column hidden-lg hidden-md">
+                            <div class="col-lg-1 col-md-1 hidden-sm hidden-xs no-column vacio">
+                            	&nbsp;
+                            </div>
+                        	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 no-column ico no-column hidden-sm hidden-xs">
                                 <div class="table">
                                     <div class="table-cell">
-                                        <img src="img/ico-cama.svg" alt="">
+                                        <img src="img/ico-algo-mas.svg" alt="">
                                     </div>
                                 </div>
-                                <span class="punta punta-der hidden-xs hidden-md hidden-sm"></span>
                             </div>
-                            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-6 no-column img">
+                            <!--ico-->
+                        	<div class="col-sm-6 col-xs-6 no-column ico no-column hidden-lg hidden-md">
+                                <div class="table">
+                                    <div class="table-cell">
+                                        <img src="img/ico-algo-mas.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--ico fantasma-->
+                            <div class="col-lg-1 col-md-1 no-column no-column punta punta-der hidden-sm hidden-xs">
+                            	&nbsp;
+                            </div>
+                            <!--punta-->
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 no-column img">
                             	<div class="table">
                                 	<div class="table-cell">
                                     	<img src="img/dest-2.png" alt="">
                                     </div>
                                 </div>
                             </div>
+                            <!--imagen-->
                             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 precio no-column text-center">
                                 <div class="table">
                                     <div class="table-cell">
                                     	<h1>$56000</h1>
-                                        <p>Loren ipsum</p>
-                                        <p>dolor sit amet</p>
                                         <button class="solicitar">Solicitar</button>
                                     </div>
                                 </div>
                             </div>
-                            
-                        	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-6 no-column ico no-column hidden-sm hidden-xs">
-                                <div class="table">
-                                    <div class="table-cell">
-                                        <img src="img/ico-cama.svg" alt="">
-                                    </div>
-                                </div>
-                                <span class="punta punta-der hidden-xs hidden-md"></span>
-                            </div>
-                            
+                            <!--precio-->
                         </div>                    
                     </div>
                     <!--destacado derecha 4-->
-
-
-
-
-
-
-
-                    
                     
                     
                 </div>
@@ -335,10 +357,49 @@
             
             
         </div>
-        <!--/produtos destacados 2-->
+        <!--/produtos destacados 2--><?php */?>
+        
+        <?php /*?><div id="inscribe-correo" class="container-fluid no-column">
+        
+        	<div class="col-lg-offset-1 col-md-offset-1 col-lg-10 col-md-10 col-sm-12 col-xs-12 no-column">
+            	<div class="container-fluid no-column">
+                	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 left texto">
+                    	<p>Recibe ofertas en tu correo</p>
+                        <p>Y entérate de las últimas novedades en HKB</p>
+                    </div>
+                    
+                    <form>
+                	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                    	<div class="container-fluid">
+                        	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+        		            	<input type="text" placeholder="Nombre">
+                            </div>
+                        	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+		                        <input type="email" placeholder="@">
+                            </div>
+                        </div>
+                    </div>
+                	<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 text-center">
+                    	<input type="submit" value="Quiero Recibir Info" class="solicitar">
+                    </div>
+                    </form>
+                    
+                </div>
+                <!--container-->
+            </div>
+            
+        </div>
+        <!--inscribe correo--><?php */?>
         
       </section>
       <!--/main-->
+      
+      <footer class="container-fluid no-column">
+      	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-column">
+        	
+        </div>	
+        <!--container-->
+      </footer>
       
       
       
