@@ -106,19 +106,25 @@ html[xmlns] .slides {
 	z-index: 10;
 	overflow: hidden;
 	opacity: 0;
+	padding-top:6px;
 	cursor: pointer;
-	color: rgba(0,0,0,0.8);
-	text-shadow: 1px 1px 0 rgba(255,255,255,0.3);
+	color: #FFF;
 	-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
 	transition: all .3s ease;
+	background:#909090;
+	border-radius:50%;
 }
+
+
 .flex-direction-nav .flex-prev {
 	left: 50px;
+	padding-left:7px;	
 }
 .flex-direction-nav .flex-next {
 	right: 50px;
 	text-align: right;
+	padding-right:7px;
 }
 .flexslider:hover .flex-prev {
 	opacity: 0.7;
@@ -138,7 +144,7 @@ html[xmlns] .slides {
 }
 .flex-direction-nav a:before {
 	font-family: "flexslider-icon";
-	font-size: 40px;
+	font-size: 32px;
 	line-height: 1;
 	display: inline-block;
 	content: '\f001';
@@ -146,6 +152,21 @@ html[xmlns] .slides {
 .flex-direction-nav a.flex-next:before {
 	content: '\f002';
 }
+@media (max-width: 480px) {
+	.flex-direction-nav a {
+		padding-top:0;
+		font-size:12px;
+		background:none;
+	}
+}
+@media only screen and (max-device-width: 480px) {
+	.flex-direction-nav a {
+		padding-top:0;
+		font-size:12px;
+		background:none;
+	}
+}
+
 /* Pause/Play */
 .flex-pauseplay a {
 	display: block;
@@ -179,6 +200,17 @@ html[xmlns] .slides {
 	bottom: 40px;
 	text-align: center;
 }
+@media (max-width: 480px) {
+	.flex-control-nav {
+		bottom: 16px;
+	}
+}
+@media only screen and (max-device-width: 480px) {
+	.flex-control-nav {
+		bottom: 16px;
+	}
+}
+
 .flex-control-nav li {
 	margin: 0 6px;
 	display: inline-block;

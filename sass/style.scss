@@ -59,6 +59,9 @@ $em-4: 4em;
 @mixin font-family { 
 	font-family:"ff-basic-gothic-sc-web-pro";
 }
+@mixin transicion {
+	transition:all .5s ease;
+}
 
 h1, h2, h3, h4, h5, h6, p, button {
 	font-family:"ff-basic-gothic-sc-web-pro";
@@ -78,20 +81,32 @@ header {
     padding: 36px;
     background: $gris-claro;
 	text-align:center;
+		@media only screen and (max-device-width: 480px) {
+			padding-top: 10px;
+		}
 
 	.logo img{
 		max-width:100%;
 		min-width:100%;
-		transition:all .5s ease;
+		@include transicion;
 
 		@media (max-width: 991px) {
-			max-width:70%;
-			min-width:70%;
+			max-width:30%;
+			min-width:30%;
 		}
 		@media only screen and (max-device-width: 991px) {
-			max-width:70%;
-			min-width:70%;
+			max-width:30%;
+			min-width:30%;
 		}
+		@media (max-width: 480px) {
+			max-width:60%;
+			min-width:60%;
+		}
+		@media only screen and (max-device-width: 480px) {
+			max-width:60%;
+			min-width:60%;
+		}
+		
 	}
 	
 	#zona-secundaria {
@@ -106,25 +121,25 @@ header {
 			width:70%;
 			float:left;
 		}
-		form input[type="text"]::-webkit-input-placeholder {
-			text-align:right;
-			color:#FFF;
+		form input[type="text"] {
+			&::-webkit-input-placeholder {
+				text-align:right;
+				color:#FFF;
+			}
+			&:-moz-placeholder { /* Firefox 18- */
+				text-align:right;
+				color:#FFF;
+			}
+			&::-moz-placeholder {  /* Firefox 19+ */
+				text-align:right;	
+				color:#FFF;
+			}
+			&:-ms-input-placeholder {  
+				text-align:right;	
+				color:#FFF;
+			}
 		}
-
-		form input[type="text"]:-moz-placeholder { /* Firefox 18- */
-			text-align:right;
-			color:#FFF;
-		}
-
-		form input[type="text"]::-moz-placeholder {  /* Firefox 19+ */
-			text-align:right;	
-			color:#FFF;
-		}
-
-		form input[type="text"]:-ms-input-placeholder {  
-			text-align:right;	
-			color:#FFF;
-		}
+		
 		.form {
 			margin-top:20px;
 			
@@ -154,6 +169,10 @@ header {
 				
 				a {
 					color:$amarillo;
+					
+					@media only screen and (max-device-width: 480px) {
+						font-size:10px;
+					}
 				}
 			}
 		}
@@ -253,28 +272,72 @@ header {
 	}
 	
 }
-#slide-home {
+/*#slide-home {
 	li div {
 		position:absolute;
 		z-index:999;
 		text-align:right;
 		
-		border:1px solid;
 		padding-top:8%;
-		padding-right:5%;
+		padding-right:1%;
 		
-		width:95%;
+		width:99%;
 		height:92%;
 		overflow:visible;
 		@include box;
 		
+		p {
+			color:#FFF;
+			font-size:$em-3;
+			
+			@media (max-width: 780px) {
+				font-size:36px;
+			}
+			@media only screen and (max-device-width: 780px) {
+				font-size:36px;
+			}
+			@media (max-width: 480px) {
+				font-size:18px;
+			}
+			@media only screen and (max-device-width: 480px) {
+				font-size:18px;
+			}
+		}
+		
 		h1 {
 			color:#FFF;
 			word-wrap:break-word;
-			padding-left:43%;
+			padding-left:46%;
+			font-size:109px;
+			@include transicion;
+			
+			@media (max-width: 1160px) {
+				font-size:99px;
+			}
+			@media only screen and (max-device-width: 1160px) {
+				font-size:99px;
+			}
+			@media (max-width: 1020px) {
+				font-size:72px;
+			}
+			@media only screen and (max-device-width: 1020px) {
+				font-size:72px;
+			}
+			@media (max-width: 780px) {
+				font-size:55px;
+			}
+			@media only screen and (max-device-width: 780px) {
+				font-size:55px;
+			}
+			@media (max-width: 480px) {
+				font-size:36px;
+			}
+			@media only screen and (max-device-width: 480px) {
+				font-size:36px;
+			}
 		}
 	}
-}
+}*/
 
 .productos-destacados {
 	text-align:center;
@@ -458,9 +521,10 @@ header {
 		
 		p {
 			line-height:1.1em;
-		}
-		p:first-child {
-			font-weight:700;
+			
+			&:first-child {
+				font-weight:700;
+			}
 		}
 		
 		@media (max-width: 990px) {
@@ -473,19 +537,59 @@ header {
 		}
 	}
 }
-::-webkit-input-placeholder {
+
+*::-webkit-input-placeholder {
 	color: #FFF;
 }
-:-moz-placeholder { /* Firefox 18- */
+*:-moz-placeholder { /* Firefox 18- */
 	color: #FFF;  
 }
-::-moz-placeholder {  /* Firefox 19+ */
+*::-moz-placeholder {  /* Firefox 19+ */
 	color: #FFF;  
 }
-:-ms-input-placeholder {  
+*:-ms-input-placeholder {  
 	color: #FFF;  
 }
 //inscribe-correo
+
+
+/*Categorias*/
+.head-cat {
+	background:$gris-oscuro;
+	padding:10px 0;
+	margin:50px 0 100px 0;
+	p {
+		color:#FFF;
+	}
+}
+.loop-cat {
+	margin:20px 0;
+	@include transicion;
+	border-radius:$radio - 10px;
+	
+	&:last-child {
+		margin-bottom:90px;
+	}
+	&:hover {
+		-webkit-box-shadow: 0px 0px 13px -2px rgba(50, 50, 50, 0.7);
+		-moz-box-shadow:    0px 0px 13px -2px rgba(50, 50, 50, 0.7);
+		box-shadow:         0px 0px 13px -2px rgba(50, 50, 50, 0.7);
+	}
+	
+	img {
+		width:100%;
+		margin-bottom:20px;
+	}
+	.solicitar {
+		padding:10px;
+		border-radius:$radio - 5px;
+		font-size:$em-1 * 0.9;
+	}
+	h4, h2 {
+		text-transform:uppercase;
+		font-weight:200;
+	}
+}
 
 footer {
 	padding:45px 0 119px 0;

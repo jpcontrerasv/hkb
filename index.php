@@ -24,7 +24,7 @@
   </head>
   <body>
       
-      <?php /*?><header class="container-fluid">
+      <header class="container-fluid">
           <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12 text-center logo no-column">
             <img src="img/logoHKB.svg" alt="">
           </div>
@@ -90,27 +90,26 @@
                     
                 </ul>          
           </div>
-          <!--/menu-->
           <div id="zona-secundaria" class="col-lg-6 col-md-8 col-sm-12 col-xs-12 text-center no-column" >
           	<div class="container-fluid no-column">
-            	<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 form no-column">
+            	<div class="col-lg-5 col-md-5 col-sm-5 col-xs-6 form no-column no-column">
                   <form>
                     <input type="text" class="form-control empty" placeholder="&#xF002;" style="font-family:Arial, FontAwesome">
                   </form>
                   <p>ayuda</p>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 links">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 links no-column">
                 	<div>
                     	<a href="#">Ingresar</a> <span class="hidden-xs">|</span> <a href="#">Registrarse</a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 carro text-center" >
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-2 carro text-center no-column" >
                 	<i class="fa fa-shopping-cart fa-2x"></i>
                 </div>
                 
             </div>
           </div>
-      </header><?php */?>
+      </header>
       
      <section id="main" class="container-fluid no-column">
      
@@ -118,25 +117,17 @@
         <div id="slide-home" class="flexslider">
           <ul class="slides">
             <li>
-            	<div>
-                	<h1 class="tit-slide">Bienvenido a tu hogar soñado</h1>
-                    <p>Colección deco 2015</p>
-                </div>
 	            <img src="img/img-slide-1.jpg" />
             </li>
             <li>
-            	<div>
-                	<h1 class="tit-slide">tu hogar soñado bienvenido</h1>
-                    <p>Colección deco 2015</p>
-                </div>
 	            <img src="img/img-slide-1.jpg" />
             </li>
             
           </ul>
         </div>
-        <!--slider-->
+        <!--slider-->  
         
-        <?php /*?><div class="clearfix"></div>
+        <div class="clearfix"></div>
         <div class="productos-destacados" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-column text-center">
         	<h1 id="productos-destacados-home">Productos <span>Destacados</span></h1>
         </div>
@@ -374,15 +365,14 @@
         
         <div id="inscribe-correo" class="container-fluid no-column">
         
-        	<div class="col-lg-offset-1 col-md-offset-1 col-lg-10 col-md-10 col-sm-12 col-xs-12 no-column">
+        	<div class="col-lg-offset-1 col-lg-10 col-md-12 col-sm-12 col-xs-12 no-column">
             	<div class="container-fluid no-column">
                 	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 left texto">
                     	<p>Recibe ofertas en tu correo</p>
                         <p>Y entérate de las últimas novedades en HKB</p>
                     </div>
-                    
-                    <form>
-                	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                	<div class="col-lg-6 col-md-5 col-sm-12 col-xs-12 text-center">
+                    	<form>
                     	<div class="container-fluid">
                         	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
         		            	<input type="text" placeholder="Nombre">
@@ -392,17 +382,16 @@
                             </div>
                         </div>
                     </div>
-                	<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 text-center">
+                	<div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 text-center">
                     	<input type="submit" value="Quiero Recibir Info" class="solicitar">
+                        </form>
                     </div>
-                    </form>
-                    
                 </div>
                 <!--container-->
             </div>
             
         </div>
-        <!--inscribe correo--><?php */?>
+        <!--inscribe correo-->
         
       </section>
       <!--/main-->
