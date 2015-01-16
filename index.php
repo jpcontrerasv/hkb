@@ -24,116 +24,93 @@
   </head>
   <body>
       
-      <header class="container-fluid">
-          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 text-center logo no-column">
+      <?php /*?><header class="container-fluid">
+          <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12 text-center logo no-column">
             <img src="img/logoHKB.svg" alt="">
           </div>
-          <div id="home-menu" class="col-lg-6 col-md-7 col-sm-12 col-xs-12 no-column">
+          <div id="home-menu" class="col-lg-4 col-md-8 col-sm-12 col-xs-12 no-column" >
             <ul id="jetmenu" class="jetmenu grey">
-                    <li class="active"><a href="#">Home</a></li>
                     
-                    <li><a href="#">Grid system</a>
+                    <li class="active"><a href="#">Cocina</a>
                         <div class="megamenu full-width">
+                        
                         	<div class="wrapper-in box fwidth fleft">
                             	<div class="container-fluid">
-                                	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-left">
+                                	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left">
                                     	<h4>Lo mejor de Cocina</h4>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-left zona-primaria">
+                                    	
                                         <div class="clearfix"></div>
                                         <div class="container-fluid productos-menu">
-                                        	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
+                                        	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">
                                             	<img src="img/img-menu-cocina.jpg" alt="">
                                                 <h2>$56.000</h2>
                                                 <p>Producto</p>
                                                 <button class="solicitar">Comprar</button>
                                             </div>
-                                        	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
+                                        	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">
                                             	<img src="img/img-menu-cocina.jpg" alt="">
                                                 <h2>$56.000</h2>
                                                 <p>Producto</p>
                                                 <button class="solicitar">Comprar</button>
                                             </div>
                                         </div>
-                                    </div>
-                                	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                    	<p>chao</p>
+                                    </div> 
+                                	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 zona-secundaria text-left">
+                                    	<h2>¿Qué encontrarás en cocina?</h2>
+                                        <ul class="cats">
+                                        	<li><a href="#">Cuchillería</a></li>
+                                            <li><a href="#">Accesorios mesa</a></li>
+                                            <li><a href="#">Vajilla</a></li>
+                                            <li><a href="#">Copas, vasos y tazones</a></li>
+                                            <li><a href="#">Accesorios de cocina</a></li>
+                                            <li><a href="#">Oranizadores (storage)</a></li>
+                                            <li><a href="#">Bakerys</a></li>
+                                            <li><a href="#">Ollas</a></li>
+                                            <li><a href="#">Cafeteras y Teteras</a></li>
+                                            <li><a href="#">Parrillas y wafleras</a></li>
+                                            <li><a href="#">Tostadores y Hornos</a></li>
+                                            <li><a href="#">Individuales</a></li>
+                                        </ul>
+                                        
                                     </div>
                                 </div>
                             </div>
+                            <!--wrapper-->
                         </div>
                     </li>				
+                    <li><a href="#">Baño</a></li>
+                    <li><a href="#">Cama</a></li>
+                    <li><a href="#">Algo más</a></li>
+                    
 
-                    <li><a href="#">Grid system</a>
-                        <div class="megamenu full-width">
-                        	<div class="wrapper-in box fwidth fleft">
-                            <div class="row">
-                                <div style="background: #444; text-align: center" class="col1">1/6</div>
-                                <div style="background: #444; text-align: center" class="col1">1/6</div>
-                                <div style="background: #444; text-align: center" class="col1">1/6</div>
-                                <div style="background: #444; text-align: center" class="col1">1/6</div>
-                                <div style="background: #444; text-align: center" class="col1">1/6</div>
-                                <div style="background: #444; text-align: center" class="col1">1/6</div>
-                            </div>
-                            <div class="row">
-                                <div style="background: #444; text-align: center" class="col2">2/6</div>
-                                <div style="background: #444; text-align: center" class="col1">1/6</div>
-                                <div style="background: #444; text-align: center" class="col1">1/6</div>
-                                <div style="background: #444; text-align: center" class="col1">1/6</div>
-                                <div style="background: #444; text-align: center" class="col1">1/6</div>
-                            </div>
-                            <div class="row">
-                                <div style="background: #444; text-align: center" class="col3">3/6</div>
-                                <div style="background: #444; text-align: center" class="col1">1/6</div>
-                                <div style="background: #444; text-align: center" class="col1">1/6</div>
-                                <div style="background: #444; text-align: center" class="col1">1/6</div>
-                            </div>
-                            <div class="row">
-                                <div style="background: #444; text-align: center" class="col4">4/6</div>
-                                <div style="background: #444; text-align: center" class="col1">1/6</div>
-                                <div style="background: #444; text-align: center" class="col1">1/6</div>
-                            </div>
-                            <div class="row">
-                                <div style="background: #444; text-align: center" class="col5">5/6</div>
-                                <div style="background: #444; text-align: center" class="col1">1/6</div>
-                            </div>
-                            <div class="row">
-                                <div style="background: #444; text-align: center" class="col6">6/6</div>
-                            </div>
-                            <div class="row">
-                                <div style="background: #444; text-align: center" class="col3">3/6</div>
-                                <div style="background: #444; text-align: center" class="col3">3/6</div>
-                            </div>
-                            <div class="row">
-                                <div style="background: #444; text-align: center" class="col2">2/6</div>
-                                <div style="background: #444; text-align: center" class="col1">1/6</div>
-                                <div style="background: #444; text-align: center" class="col1">1/6</div>
-                                <div style="background: #444; text-align: center" class="col2">2/6</div>
-                            </div>
-                            <div class="row">
-                                <div style="background: #444; text-align: center" class="col1">1/6</div>
-                                <div style="background: #444; text-align: center" class="col4">4/6</div>
-                                <div style="background: #444; text-align: center" class="col1">1/6</div>
-                            </div>
-                            <div class="row">
-                                <div style="background: #444; text-align: center" class="col4">4/6</div>
-                                <div style="background: #444; text-align: center" class="col2">2/6</div>
-                            </div>
-                            <div class="row">
-                                <div style="background: #444; text-align: center" class="col2">2/6</div>
-                                <div style="background: #444; text-align: center" class="col3">3/6</div>
-                                <div style="background: #444; text-align: center" class="col1">1/6</div>
-                            </div>
-                            </div>
-                        </div>
-                    </li>				
                     
                     
                 </ul>          
           </div>
           <!--/menu-->
-          <div class="col-lg-4 col-md-3 col-sm-12 col-xs-12 text-center no-column">
-              <p>hola</p>
+          <div id="zona-secundaria" class="col-lg-6 col-md-8 col-sm-12 col-xs-12 text-center no-column" >
+          	<div class="container-fluid no-column">
+            	<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 form no-column">
+                  <form>
+                    <input type="text" class="form-control empty" placeholder="&#xF002;" style="font-family:Arial, FontAwesome">
+                  </form>
+                  <p>ayuda</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 links">
+                	<div>
+                    	<a href="#">Ingresar</a> <span class="hidden-xs">|</span> <a href="#">Registrarse</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 carro text-center" >
+                	<i class="fa fa-shopping-cart fa-2x"></i>
+                </div>
+                
+            </div>
           </div>
-      </header>
+      </header><?php */?>
       
      <section id="main" class="container-fluid no-column">
      
@@ -141,22 +118,25 @@
         <div id="slide-home" class="flexslider">
           <ul class="slides">
             <li>
-  	    	    <img src="img/img-slide-1.jpg" />
-  	    		</li>
-  	    		<li>
-  	    	    <img src="img/kitchen_adventurer_lemon.jpg" />
-  	    		</li>
-  	    		<li>
-  	    	    <img src="img/kitchen_adventurer_donut.jpg" />
-  	    		</li>
-  	    		<li>
-  	    	    <img src="img/kitchen_adventurer_caramel.jpg" />
-  	    		</li>
+            	<div>
+                	<h1 class="tit-slide">Bienvenido a tu hogar soñado</h1>
+                    <p>Colección deco 2015</p>
+                </div>
+	            <img src="img/img-slide-1.jpg" />
+            </li>
+            <li>
+            	<div>
+                	<h1 class="tit-slide">tu hogar soñado bienvenido</h1>
+                    <p>Colección deco 2015</p>
+                </div>
+	            <img src="img/img-slide-1.jpg" />
+            </li>
+            
           </ul>
         </div>
         <!--slider-->
         
-        <div class="clearfix"></div>
+        <?php /*?><div class="clearfix"></div>
         <div class="productos-destacados" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-column text-center">
         	<h1 id="productos-destacados-home">Productos <span>Destacados</span></h1>
         </div>
@@ -422,7 +402,7 @@
             </div>
             
         </div>
-        <!--inscribe correo-->
+        <!--inscribe correo--><?php */?>
         
       </section>
       <!--/main-->

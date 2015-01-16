@@ -101,12 +101,15 @@ ITEM PAGE: http://codecanyon.net/item/jet-responsive-megamenu/5719593
 	z-index: 10;
 }
 .jetmenu > li > a {
-	padding: 5px 24px;
-	font-family: 'Open Sans', sans-serif;
+	padding: 5px 15px;
 	font-size: 14px;
 	color: #FFF;
 	text-decoration: none;
 	display: inline-block;
+	font-size:1.5em;
+	font-weight:500;
+	font-family:"ff-basic-gothic-sc-web-pro";
+	text-transform:uppercase;
 }
 .jetmenu > li:hover > a, .jetmenu > li.active > a {
 	background: #FFF;
@@ -160,7 +163,7 @@ ITEM PAGE: http://codecanyon.net/item/jet-responsive-megamenu/5719593
 .jetmenu .indicator {
 	position: relative;
 	left: 5px;
-	top: 0;
+	top: 5px;
 	font-size: 14px;
 	float: right;
 }
@@ -670,7 +673,7 @@ box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.48);
 }
 .jetmenu a {
 	width: 100%;
-	background: #333;
+	/*background: #333;*/
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
