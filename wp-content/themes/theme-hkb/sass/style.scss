@@ -623,7 +623,11 @@ footer {
 //footer
 
 
-
+#main .type-product {
+	@include box;
+	float:left;
+	border:1px solid;
+}
 /*Transversales*/
 /*table para centrar verticalmente*/
 .table {

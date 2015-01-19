@@ -20,7 +20,27 @@
         	<h1 id="productos-destacados-home">Productos <span>Destacados</span></h1>
             
             
-         
+<ul class="products">
+	<?php
+		
+		
+$args = array(
+    'posts_per_page' => 1,
+    'product_cat' => 'cama',
+    'post_type' => 'product',
+    'orderby' => 'rand',
+);
+$the_query = new WP_Query( $args );
+// The Loop
+
+while ( $the_query->have_posts() ) {
+    $the_query->the_post(); ?>
+    
+    <a href="<?php the_permalink (); ?>"><? echo '' . get_the_title() . ''; ?></a>
+    
+<? } wp_reset_postdata(); ?>
+
+</ul><!--/.products-->            
             
         </div>
         <!--bajada slider-->

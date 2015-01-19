@@ -57,5 +57,7 @@
 	<script src="<?php bloginfo('template_url'); ?>/js/jquery.easing.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/jquery.fittext.js"></script>
     
+    <?php wp_footer(); ?>
+    
   </body>
 </html>

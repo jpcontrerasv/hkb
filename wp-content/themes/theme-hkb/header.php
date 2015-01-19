@@ -21,6 +21,7 @@
     <![endif]-->
 	<script src="//use.typekit.net/vuo8jjd.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
+    <?php wp_head(); ?> 
   </head>
   <body>
       
