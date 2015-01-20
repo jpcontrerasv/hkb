@@ -189,10 +189,9 @@ ITEM PAGE: http://codecanyon.net/item/jet-responsive-megamenu/5719593
 	padding: 57px 10px 43px 10px;
 	background: #FFF;
 	font-family: 'Open Sans', sans-serif;
-	
--webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.48);
--moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.48);
-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.48);
+	-webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.48);
+	-moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.48);
+	box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.48);
 }
 
 
@@ -204,6 +203,7 @@ box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.48);
 	padding: 0;
 	display: block;
 	position: relative;
+	width:100%;
 }
 .jetmenu li > .megamenu ul li {
 	width: 100%;

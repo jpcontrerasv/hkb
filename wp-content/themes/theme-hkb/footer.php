@@ -56,8 +56,21 @@
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.flexslider.js"></script>  
 	<script src="<?php bloginfo('template_url'); ?>/js/jquery.easing.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/jquery.fittext.js"></script>
-    
+	<?php global $woocommerce; ?>
+    <?php
+    $my_cart_count = $woocommerce->cart->cart_contents_count;
+    if ($my_cart_count > 0) :
+    ?>
+    <script src="<?php bloginfo('template_url'); ?>/js/favico-0.3.5.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    var favicon=new Favico({
+	    animation:'pop'
+    });
+    favicon.badge(<?php echo $my_cart_count; ?>);
+    </script>
+    <?php endif; ?>
     <?php wp_footer(); ?>
+    
     
   </body>
 </html>

@@ -53,6 +53,25 @@ if ( ! isset( $content_width ) )
  *
  * @since Twenty Thirteen 1.0
  */
+ 
+ function woocommerce_subcats_from_parentcat_by_ID($parent_cat_ID) {
+    $args = array(
+       'hierarchical' => 1,
+       'show_option_none' => '',
+       'hide_empty' => 0,
+       'parent' => $parent_cat_ID,
+       'taxonomy' => 'product_cat'
+    );
+  $subcats = get_categories($args);
+    echo '<ul class="cats">';
+      foreach ($subcats as $sc) {
+        $link = get_term_link( $sc->slug, $sc->taxonomy );
+          echo '<li><a href="'. $link .'">'.$sc->name.'</a></li>';
+      }
+    echo '</ul>';
+}
+ 
+ 
 function twentythirteen_setup() {
 	/*
 	 * Makes Twenty Thirteen available for translation.
@@ -224,9 +243,9 @@ add_filter( 'wp_title', 'twentythirteen_wp_title', 10, 2 );
  */
 function twentythirteen_widgets_init() {
 	register_sidebar( array(
-		'name'          => __( 'Main Widget Area', 'twentythirteen' ),
-		'id'            => 'sidebar-1',
-		'description'   => __( 'Appears in the footer section of the site.', 'twentythirteen' ),
+		'name'          => __( 'Carrito header', 'twentythirteen' ),
+		'id'            => 'header-carrito',
+		'description'   => __( 'Zona para el carrito en el header.', 'twentythirteen' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h3 class="widget-title">',

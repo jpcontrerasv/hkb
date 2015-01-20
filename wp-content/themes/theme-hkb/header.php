@@ -61,21 +61,7 @@
                                     </div> 
                                 	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 zona-secundaria text-left">
                                     	<h2>¿Qué encontrarás en cocina?</h2>
-                                        <ul class="cats">
-                                        	<li><a href="#">Cuchillería</a></li>
-                                            <li><a href="#">Accesorios mesa</a></li>
-                                            <li><a href="#">Vajilla</a></li>
-                                            <li><a href="#">Copas, vasos y tazones</a></li>
-                                            <li><a href="#">Accesorios de cocina</a></li>
-                                            <li><a href="#">Oranizadores (storage)</a></li>
-                                            <li><a href="#">Bakerys</a></li>
-                                            <li><a href="#">Ollas</a></li>
-                                            <li><a href="#">Cafeteras y Teteras</a></li>
-                                            <li><a href="#">Parrillas y wafleras</a></li>
-                                            <li><a href="#">Tostadores y Hornos</a></li>
-                                            <li><a href="#">Individuales</a></li>
-                                        </ul>
-                                        
+                                        <?php woocommerce_subcats_from_parentcat_by_ID('8'); ?>
                                     </div>
                                 </div>
                             </div>
@@ -101,11 +87,26 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 links no-column">
                 	<div>
+                <?php if ( is_user_logged_in() ) { ?>
+                	Bienvenido <?php $user_info = get_userdata(1); $first_name = $user_info->first_name; echo "$first_name"; ?>. <a href="<?php echo wp_logout_url( home_url() ); ?>" style="font-size:10px;">Cerrar sesión</a>
+					<? } else { ?>
                     	<a href="#">Ingresar</a> <span class="hidden-xs">|</span> <a href="#">Registrarse</a>
+						<? } ?>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-2 carro text-center no-column" >
-                	<i class="fa fa-shopping-cart fa-2x"></i>
+                	<a href="http://localhost:8888/hkb/cart/"><i class="fa fa-shopping-cart fa-2x"></i></a>
+					<?php global $woocommerce; ?>
+                    <?php
+                    $my_cart_count = $woocommerce->cart->cart_contents_count;
+                    if ($my_cart_count > 0) :
+                    ?>
+                    <?php echo $my_cart_count; ?>
+                    <?php
+                    endif;
+                    ?>
+                    
+                    <?php wp_nav_menu( array('menu' => 'Carrito' )); ?>
                 </div>
                 
             </div>

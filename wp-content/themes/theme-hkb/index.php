@@ -36,7 +36,10 @@ $the_query = new WP_Query( $args );
 while ( $the_query->have_posts() ) {
     $the_query->the_post(); ?>
     
+    <?php echo get_the_post_thumbnail(); ?> 
     <a href="<?php the_permalink (); ?>"><? echo '' . get_the_title() . ''; ?></a>
+    <? woocommerce_get_template( 'loop/price.php' ); ?>
+    <?php woocommerce_template_loop_add_to_cart(); //ouptput the woocommerce loop add to cart button ?>
     
 <? } wp_reset_postdata(); ?>
 

@@ -110,6 +110,9 @@ header {
 	}
 	
 	#zona-secundaria {
+		ul.cats {
+			width:100%;
+		}
 		form input[type="text"] {
 			border-radius:$radio / 2;
 			padding:1px 10px;
@@ -166,6 +169,7 @@ header {
 				padding:5px 0;
 				margin:18px 0 0 0;
 				border-radius:$radio;
+				color:$amarillo;
 				
 				a {
 					color:$amarillo;
