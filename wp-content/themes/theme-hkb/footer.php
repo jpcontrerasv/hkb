@@ -1,4 +1,8 @@
-      <footer class="container-fluid no-column">
+</div>
+</div>
+<!--wrapper-->
+
+      <footer class="box fwidth fleft">
       	<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 no-column">
         	<div class="container-fluid no-column">
             	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
@@ -51,11 +55,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
-    <script src="<?php bloginfo('template_url'); ?>/js/scripts.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jetmenu.js"></script>  
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.flexslider.js"></script>  
 	<script src="<?php bloginfo('template_url'); ?>/js/jquery.easing.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/jquery.fittext.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/scripts.js"></script>
+	
 	<?php global $woocommerce; ?>
     <?php
     $my_cart_count = $woocommerce->cart->cart_contents_count;
@@ -69,6 +74,7 @@
     favicon.badge(<?php echo $my_cart_count; ?>);
     </script>
     <?php endif; ?>
+    
     <?php wp_footer(); ?>
     
     

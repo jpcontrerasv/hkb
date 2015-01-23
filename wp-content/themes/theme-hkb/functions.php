@@ -58,7 +58,7 @@ if ( ! isset( $content_width ) )
     $args = array(
        'hierarchical' => 1,
        'show_option_none' => '',
-       'hide_empty' => 0,
+       'hide_empty' => 1,
        'parent' => $parent_cat_ID,
        'taxonomy' => 'product_cat'
     );
@@ -70,7 +70,79 @@ if ( ! isset( $content_width ) )
       }
     echo '</ul>';
 }
+
+
+
+function excerpt($limit) {
+ $excerpt = explode(' ', get_the_excerpt(), $limit);
+ if (count($excerpt)>=$limit) {
+ array_pop($excerpt);
+ $excerpt = implode(" ",$excerpt).'...';
+ } else {
+ $excerpt = implode(" ",$excerpt);
+ }
+ $excerpt = preg_replace('`[[^]]*]`','',$excerpt);
+ return $excerpt;
+}
+
+function content($limit) {
+ $content = explode(' ', get_the_content(), $limit);
+ if (count($content)>=$limit) {
+ array_pop($content);
+ $content = implode(" ",$content).'...';
+ } else {
+ $content = implode(" ",$content);
+ }
+ $content = preg_replace('/[.+]/','', $content);
+ $content = apply_filters('the_content', $content);
+ $content = str_replace(']]>', ']]&gt;', $content);
+ return $content;
+}
+
+function my_search_form() {
+	$form = '<form role="search" method="get" id="searchform" class="searchform" action="' . home_url( '/' ) . '" >
+	<input type="text" placeholder="&#xF002;" "form-control empty" value="' . get_search_query() . '" name="s" id="s" style="font-family:Arial, FontAwesome" />
+	<input type="submit" id="searchsubmit" value="'. esc_attr__( 'Search' ) .'" />
+	
+	</form>';
+
+	return $form;
+}
+
+add_filter( 'get_search_form', 'my_search_form' );
+function searchfilter($query) {
+
+    if ($query->is_search && !is_admin() ) {
+        $query->set('post_type',array('product'));
+    }
+
+return $query;
+}
+
+add_filter('pre_get_posts','searchfilter');
  
+ 
+/**
+ * Disable admin bar on the frontend of your website
+ * for subscribers.
+ */
+function themeblvd_disable_admin_bar() { 
+	if( ! current_user_can('edit_posts') )
+		add_filter('show_admin_bar', '__return_false');	
+}
+add_action( 'after_setup_theme', 'themeblvd_disable_admin_bar' );
+ 
+/**
+ * Redirect back to homepage and not allow access to 
+ * WP admin for Subscribers.
+ */
+function themeblvd_redirect_admin(){
+	if ( ! current_user_can( 'edit_posts' ) ){
+		wp_redirect( site_url() );
+		exit;		
+	}
+}
+add_action( 'admin_init', 'themeblvd_redirect_admin' ); 
  
 function twentythirteen_setup() {
 	/*
@@ -246,6 +318,16 @@ function twentythirteen_widgets_init() {
 		'name'          => __( 'Carrito header', 'twentythirteen' ),
 		'id'            => 'header-carrito',
 		'description'   => __( 'Zona para el carrito en el header.', 'twentythirteen' ),
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+	) );
+
+	register_sidebar( array(
+		'name'          => __( 'Zona login', 'twentythirteen' ),
+		'id'            => 'header-login',
+		'description'   => __( 'Zona para el login en el header.', 'twentythirteen' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h3 class="widget-title">',

@@ -1,0 +1,129 @@
+/*Fuentes*/
+$em-1: 1em;
+$em-2: 2em;
+$em-3: 3em;
+$em-4: 4em;
+
+@mixin font-family { 
+	font-family:"ff-basic-gothic-sc-web-pro";
+}
+@mixin transicion {
+	transition:all .5s ease;
+}
+
+h1, h2, h3, h4, h5, h6, p, button {
+	font-family:"ff-basic-gothic-sc-web-pro";
+	margin:0;
+	padding:0;
+}
+
+//Paleta
+$amarillo: #f6fea5;
+$gris-claro: #727272;
+$gris-claro-b: #adadad;
+$gris-oscuro: #5b5c5c;
+//radio 
+$radio: 18px;
+
+#main {
+	#woocontent, .woocommerce {
+		margin:20px 0;
+		padding:20px 0;
+		text-align:left;
+	
+		.shop_table cart {
+			margin:50px 0;
+		}
+		input.input-text[type="text"], input.input-text[type="password"], input.input-text[type="email"]  {
+			line-height:$em-2;
+			padding:0 20px;
+		}
+		header.title {
+			padding:20px;
+			margin:10px 0;
+			
+			a{
+				color:#FFF;
+				text-decoration:underline;
+			}
+		}
+
+		
+	}
+	.product_meta {
+		@include font-family;
+	}
+}
+a.added_to_cart {
+	display:block;
+	width:100%;
+	float:left;
+	text-align:center;
+}
+.woocommerce .woocommerce-error:before, .woocommerce .woocommerce-info:before, .woocommerce .woocommerce-message:before, .woocommerce-page .woocommerce-error:before, .woocommerce-page .woocommerce-info:before, .woocommerce-page .woocommerce-message:before {
+	line-height:0;
+}
+
+
+#woocontent-tabs {
+	margin:50px 0;
+}
+#tab-description.panel {
+	padding:20px 0;
+}
+#single-product {
+	p.price {
+		font-size:$em-3;
+		color:$gris-claro-b;
+	}
+	
+	.description {
+		margin:20px 0;
+		
+		p {
+			text-transform:uppercase;
+			font-weight:200;
+			font-size:$em-1 * 1.2;
+		}
+	}
+	div.quantity, .single_add_to_cart_button {
+		float:right!important;
+	}
+	.single_add_to_cart_button {
+		margin-right:20px;
+		background:$amarillo;
+		padding:10px;
+		text-transform:uppercase;
+		color:$gris-oscuro;
+		border:none;
+		border-radius:$radio;
+		font-weight:600;
+		overflow:auto;
+		@include font-family;
+		text-shadow:none;
+		box-shadow:none;
+		
+		&:hover {
+			background:$gris-oscuro;
+			color:$amarillo;
+		}
+	}
+}
+
+#before-shop-loop {
+	background:$gris-oscuro;
+	padding:10px 20px;
+	margin:20px 0;
+	p {
+		color:#FFF;
+		margin-bottom:0;
+	}
+	form {
+		margin-bottom:0;
+	}
+}
+.not-logged {
+	a.button-social-login {
+		font-size:10px;
+	}
+}
