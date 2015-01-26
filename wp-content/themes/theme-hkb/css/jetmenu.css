@@ -252,9 +252,17 @@ ITEM PAGE: http://codecanyon.net/item/jet-responsive-megamenu/5719593
 	width: 50%;
 }
 .jetmenu > li > .megamenu.full-width {
-	width: 140%;
+	width: 200%;
 	left: 0;
 }
+
+@media (max-width: 1200px) {
+	.jetmenu > li > .megamenu.full-width {
+		width: 100%;
+		left: 0;
+	}
+}
+
 /* MEGAMENU FORM CONFIGURATION
 **********************************************************/
 .jetmenu li > .megamenu form {

@@ -16,11 +16,8 @@
         <!--slider-->  
         
         <div class="clearfix"></div>
-        <div class="productos-destacados" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-column text-center">
+        <div class="productos-destacados" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-column text-center hideme">
         	<h1 id="productos-destacados-home">Productos <span>Destacados</span></h1>
-            
-            
-            
         </div>
         <!--bajada slider-->
         <div class="clearfix"></div>
@@ -38,7 +35,7 @@
         
         while ( $the_query->have_posts() ) {
             $the_query->the_post(); ?>
-        <div id="prod-dest-1-home" class="container-fluid no-column">
+        <div id="prod-dest-1-home" class="container-fluid no-column hideme">
         	<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 no-column">
                 
                 <div class="container-fluid no-column">
@@ -99,7 +96,7 @@
                     
                     while ( $the_query->have_posts() ) {
                     $the_query->the_post(); ?>
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 no-column dest-izq-1">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 no-column dest-izq-1 hideme">
                     	<div class="container-fluid no-column">
                         	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 no-column ico no-column">
                                 <div class="table">
@@ -150,7 +147,7 @@
                     
                     while ( $the_query->have_posts() ) {
                     $the_query->the_post(); ?>
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 no-column dest-der-2">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 no-column dest-der-2 hideme">
                         <div class="container-fluid no-column">
                         	<div class="col-sm-6 col-xs-6 no-column ico no-column hidden-lg hidden-md">
                                 <div class="table">
@@ -214,7 +211,7 @@
                     while ( $the_query->have_posts() ) {
                     $the_query->the_post(); ?>
                     
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 no-column dest-izq-1" style="background:none;">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 no-column dest-izq-1 hideme" style="background:none;">
                     	<div class="container-fluid no-column">
                             <div class="col-lg-3 col-md-3 hidden-sm hidden-xs precio no-column text-center">
                                 <div class="table">
@@ -275,7 +272,7 @@
                     
                     while ( $the_query->have_posts() ) {
                     $the_query->the_post(); ?>
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 no-column dest-der-2">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 no-column dest-der-2 hideme">
                         <div class="container-fluid no-column">
                             <div class="col-lg-1 col-md-1 hidden-sm hidden-xs no-column vacio">
                             	&nbsp;

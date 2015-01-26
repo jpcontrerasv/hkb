@@ -59,7 +59,7 @@
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.flexslider.js"></script>  
 	<script src="<?php bloginfo('template_url'); ?>/js/jquery.easing.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/jquery.fittext.js"></script>
-    <script src="<?php bloginfo('template_url'); ?>/js/scripts.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/min/scripts-min.js"></script>
 	
 	<?php global $woocommerce; ?>
     <?php

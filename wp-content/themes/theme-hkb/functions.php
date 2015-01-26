@@ -71,7 +71,16 @@ if ( ! isset( $content_width ) )
     echo '</ul>';
 }
 
-
+add_filter('woocommerce_login_redirect', 'pro_login_redirect');
+ 
+if ( (isset($_GET['action']) && $_GET['action'] != 'logout') || (isset($_POST['login_location']) && !empty($_POST['login_location'])) ) {
+        add_filter('login_redirect', 'my_login_redirect', 10, 3);
+        function my_login_redirect() {
+                $location = $_SERVER['HTTP_REFERER'];
+                wp_safe_redirect($location);
+                exit();
+        }
+}
 
 function excerpt($limit) {
  $excerpt = explode(' ', get_the_excerpt(), $limit);

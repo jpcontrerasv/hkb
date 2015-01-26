@@ -18,19 +18,40 @@ $(window).load(function(){
 	});
 	
 
-	$( "#serchform input" ).keypress(function() {
-	  $( "#tooltip-search" ).addClass("ocultar");
-	});
+	
+	$("#tooltip-search").addClass("ocultar");
 
-    $('#searchform').submit(function(e) { 
+    $('#searchform').submit(function(e) {
+		
         var s = $( this ).find("#s"); // find the #s, which is the search input id
         if (!s.val()) { // if s has no value, proceed
             e.preventDefault(); // prevent the default submission
-            $("#tooltip-search").removeClass("ocultar").delay(5000).fadeOut(400);
-			//alert("Your search is empty!"); // alert that the search is empty
+			alert("Your search is empty!"); // alert that the search is empty
             $('#s').focus(); // focus on the search input
         }
     });
 
 	
+});
+
+
+/*Scroll index*/
+/* Every time the window is scrolled ... */
+$(window).scroll( function(){
+
+	/* Check the location of each desired element */
+	$('.hideme').each( function(i){
+		
+		var bottom_of_object = $(this).position().top + $(this).outerHeight();
+		var bottom_of_window = $(window).scrollTop() + $(window).height();
+		
+		/* If the object is completely visible in the window, fade it it */
+		if( bottom_of_window > bottom_of_object ){
+			
+			$(this).animate({'opacity':'1'},500);
+				
+		}
+		
+	}); 
+
 });
